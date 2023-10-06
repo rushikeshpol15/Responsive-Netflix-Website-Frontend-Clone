@@ -45,9 +45,9 @@ function App() {
 
   return (
 
-         <BrowserRouter basename='/Responsive-Netflix-Website-Frontend-Clone'>
+         <BrowserRouter basename='/'>
           <Routes>
-            <Route path='/Responsive-Netflix-Website-Frontend-Clone' element={<HomePage handleEmail={handleEmail}/>}/>
+            <Route path='/' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
             <Route path='/ForgotPassword' element={<ForgotPassword/>} />
             <Route path='/HelpCenter' element={<HelpCenter/>}/>
