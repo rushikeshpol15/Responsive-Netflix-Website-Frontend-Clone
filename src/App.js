@@ -45,7 +45,7 @@ function App() {
 
   return (
 
-         <HashRouter basename={process.env.PUBLIC_URL}>
+         <BrowserRouter basename='/'>
           <Routes>
             <Route path='/' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
@@ -73,7 +73,7 @@ function App() {
 
 
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
 
 
 
