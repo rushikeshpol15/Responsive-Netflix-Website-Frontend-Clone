@@ -45,7 +45,7 @@ function App() {
 
   return (
 
-         <BrowserRouter basename={process.env.PUBLIC_URL} >
+         <HashRouter basename='/Responsive-Netflix-Website-Frontend-Clone' >
           <Routes>
             <Route exact path='/Responsive-Netflix-Website-Frontend-Clone/#' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
@@ -73,7 +73,7 @@ function App() {
 
 
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
 
 
 
