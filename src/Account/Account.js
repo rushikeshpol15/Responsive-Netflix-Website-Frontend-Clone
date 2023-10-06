@@ -66,7 +66,7 @@ function Account(props)
 
         <header className="Account-header">
             <nav>
-                <img src={NetflixSVG} className="SVG" onClick={()=>{NaviGate('/')}}/>
+                <img src={NetflixSVG} className="SVG" onClick={()=>{NaviGate('/Responsive-Netflix-Website-Frontend-Clone')}}/>
             </nav>
         </header>
         <section className="pb-5 Account-section">
