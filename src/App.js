@@ -45,7 +45,7 @@ function App() {
 
   return (
 
-         <BrowserRouter basename='/Responsive-Netflix-Website-Frontend-Clone/#' >
+         <BrowserRouter basename={process.env.PUBLIC_URL} >
           <Routes>
             <Route exact path='/Responsive-Netflix-Website-Frontend-Clone/#' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
