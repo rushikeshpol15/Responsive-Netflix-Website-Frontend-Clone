@@ -45,7 +45,7 @@ function App() {
 
   return (
 
-         <HashRouter basename='/Responsive-Netflix-Website-Frontend-Clone' >
+         <HashRouter  >
           <Routes>
             <Route exact path='/Responsive-Netflix-Website-Frontend-Clone/#' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
