@@ -47,7 +47,7 @@ function App() {
 
          
           <Routes>
-            <Route path='/' element={<HomePage handleEmail={handleEmail}/>}/>
+            <Route path='/Responsive-Netflix-Website-Frontend-Clone' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
             <Route path='/ForgotPassword' element={<ForgotPassword/>} />
             <Route path='/HelpCenter' element={<HelpCenter/>}/>
