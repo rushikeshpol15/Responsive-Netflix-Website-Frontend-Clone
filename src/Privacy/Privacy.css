@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Privacy-section{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+::selection{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+.Privacy-section ul{
+    margin-left: 0.2em;
+    counter-reset: item;
+}
+.Privacy-section li{  
+    display: block;
+    /* margin-bottom: 0.1em; */
+}
+li::before{
+    content:  counter(item,'.') '.';
+    counter-increment: item 1;
+}
+.Privacy-section ul > li > ul > li,ul > li{
+   font-size: 1.02em;
+}
+li a:hover,p a:hover{
+    text-decoration: underline !important;
+}
+
+
+@media screen and (max-width:600px) {
+   
+    a{
+        font-size: 0.8em;
+    }
+    .Privacy-section  ul {
+        margin-left: 0.1em !important;
+    }
+    .Privacy-section ul > li > ul > li,ul > li{
+        font-size: 0.8em;
+     }
+    p,li{
+        font-size: .8em;
+    }
+    .Privacy-section{
+        padding-right: 0.7em;
+        padding-left: 0.7em;
+    }
+    
+}

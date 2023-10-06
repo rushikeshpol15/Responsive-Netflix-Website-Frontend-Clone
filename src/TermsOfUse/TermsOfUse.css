@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.TermsOfUse-section{
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+.print-a:hover{
+text-decoration: underline !important;
+}
+.print-button{
+    border-radius: 2px !important;
+    padding: .4em !important;
+}
+.print-button:hover{
+    background-color: rgba(207, 206, 206, 0.2) !important;
+}
+
+
+::selection{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+.TermsOfUse-section ol{
+    counter-reset: item;
+}
+li{
+    display: block;
+    padding-left: 0.5em;
+    padding-bottom: 1.5em;
+}
+li::before{
+    content: counters(item,'.') '. ';
+    counter-increment: item 1;
+}
+
+.TermsOfUse-section ol > li > ol >li, .TermsOfUse-section ol > li > ol >li p{
+    font-size: inherit;
+}
+
+p,li{
+    font-size: 1.05em;
+}
+@media screen and (max-width:600px) {
+    .print-text{
+        display: none;
+    }
+    a{
+        font-size: 0.8em;
+    }
+    .TermsOfUse-section  ol > li, ol > li > ol{
+        padding-left: .1em !important;
+        margin-left: 0.1em !important;
+    }
+    .TermsOfUse-section  ol > li > ol > li {
+        padding-left: .4em !important;
+        margin-left: 0.3em !important;
+    }
+    p,li{
+        font-size: .8em;
+    }
+    .TermsOfUse-section{
+        padding-right: 0.7em;
+        padding-left: 0.7em;
+    }
+    
+}

@@ -1,0 +1,516 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Jobs-header{
+    height: 500px;
+    position: relative;
+    box-shadow: 50px 0px 25px 10px grey;
+    padding-bottom: 2em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26),rgba(0, 0, 0, 0.205));
+}
+#Jobs-header-video{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: inherit; 
+    z-index: -1;
+}
+.Jobs-navbar{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-image: linear-gradient(132deg,  rgba(39, 39, 39, 0.034) ,rgba(0, 0, 0, 0.13));
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 1em;
+}
+.nav-sidebar-span-first-div,.nav-sidebar-span-second-div{
+    gap: 15px;
+    background-color: white;
+    padding: 1.2em;
+    margin-top: 1em;
+    visibility: hidden;
+}
+.nav-sidebar-div-one:hover .nav-sidebar-span-first-div{
+    visibility: visible;
+}
+.nav-sidebar-div-two:hover .nav-sidebar-span-second-div{
+    visibility: visible;
+}
+.nav-sidebar-links:hover{
+color: red !important;
+}
+.Jobs-netflixSVG{
+    width: 150px;
+}
+.a-Jobs{
+    font-size: 1.05em;
+    letter-spacing: 2px;
+}
+.nav-sidebar-elements{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: 8%;
+    left: 35vw;
+    font-size: 0.8em;
+}
+.fontAwesome-navbar-icon{
+    display: none ;
+}
+
+.netflix-sidebar-sVG-container{
+    display: none !important;
+}
+.fontAwesome-sidebar-navbar-fb
+{
+    display: none !important;
+}
+.Jobs-header-center-content{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 4em;
+}
+.Jobs-header-center-content-h1{
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+.Jobs-header-input-container{
+    height: 70px;
+    width: 70%;
+    background-color: white;
+}
+.Jobs-header-input{
+    font-size: 1.3em;
+    padding-top: 5px;
+    background-color: transparent !important;
+    caret-color: grey;
+    color: black;
+}
+/* input.Jobs-header-input:focus {
+    width: 70vw !important;
+} */
+
+
+@media screen and (max-width:990px) {
+    .Jobs-navbar{
+        padding: 0.7em;
+    }
+    .Jobs-header-center-content{
+        width: 92%;
+    }
+    .netflix-sidebar-sVG-container{
+        display: block !important;
+    }
+    .fontAwesome-navbar-icon
+    {
+        display: block;
+    }
+    .Navbar-Search-Job-text{
+        display: none;
+    }
+    .nav-sidebar-elements {
+        color: black !important;
+        flex-direction: column;
+        padding-top: 2em !important;
+        padding-left: 1.3em !important;
+        padding-right: 2em !important;
+        padding-bottom: 2em !important;
+        background-color: white;
+        border-right: 12px solid rgb(172, 6, 6);
+        top: 0%;
+        left: -100%;
+        height: 100vh;
+        transition: left 1s;
+    }
+    .nav-sidebar-elements.translate{
+        left: 0%;
+
+    }
+    .nav-sidebar-links{
+        color: black !important;
+        padding-left: 0.7em;
+    }
+    .nav-sidebar-span-first-div,.nav-sidebar-span-second-div{
+        visibility: visible;
+    }
+    .netflix-sidebar-sVG{
+        display: block;
+        margin-bottom: 2em;
+        margin-right: 0.8em;
+        gap: 15px;
+        padding: 2em;
+    }
+    .fontAwesome-sidebar-navbar-fb
+    {
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+}
+ @media screen and (max-width:490px) {
+    .Jobs-header-center-content{
+        width: 95%;
+        margin-top: 1.5em !important;
+        margin-left: 5%;
+    }
+    .netflix-sidebar-sVG{
+        display: block;
+        margin-bottom: 1,2em !important;
+        margin-right: 0.8em;
+        gap: 15px;
+        padding: 0.9em;
+    }
+    .nav-sidebar-links{
+        padding-left: 0.4em;
+    }
+    .Jobs-netflixSVG{
+        width: 90px;
+    }
+ }
+ @media screen and (max-width:299px) {
+    .nav-sidebar-elements{
+        width: 93% !important; 
+    }
+    .netflix-sidebar-sVG-container{
+        flex-direction: column-reverse;        
+    }
+    .netflix-sidebar-sVG{
+        flex-direction: column;
+    }
+}
+                                            /* //section */
+
+.Jobs-section{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: rgba(228, 228, 228, 0.082);
+}
+.Jobs-section-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;   
+    margin-bottom: 3.5em;
+    /* gap: 40px; */
+    box-shadow: 0px 9px 12px 0px rgba(128, 128, 128, 0.61);
+}
+.Jobs-section-subcontainer-one{
+    border-right: 27px solid rgb(156, 7, 7);
+}
+.subcontainer-img{
+  width: 100%;
+  height: 100%;
+}
+.span-red-btn{
+    background-color: rgb(211, 7, 7);
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.span-red-btn:hover{
+    cursor: pointer;
+}
+
+.second{
+    grid-template-columns: 1.5fr 2fr !important;
+}
+.Jobs-section-subcontainer-four{
+    background-color: rgb(36, 35, 35);
+}
+.Jobs-section-subcontainers-padding{
+    padding: 3.5em;
+    padding-bottom: 3em;
+}
+.small-container{
+    display: grid;
+    width: 72%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    box-shadow: 0px 9px 12px 0px rgba(128, 128, 128, 0.61);
+
+}
+.small-container-column{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.089));
+    position: relative;
+    height: 250px;
+    transition: border 0.3s;
+}
+.small-container-column:hover{
+    border-bottom: 10px solid rgb(224, 13, 13);
+    cursor: pointer;
+
+}
+
+.absolute-img{
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    z-index: -1;
+    transition:  0.5s;
+}
+.Jobs-card-container{
+    width: 72%;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.forIframe{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    width: 100vw;
+    height: 100vh;
+    /* transform: translate(-50%,-50%); */
+    /* border: 2px solid blue; */
+    z-index: 99;
+    /* border-radius: 8px; */
+    background-image: linear-gradient(110deg,rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.63));
+}
+.innerIFrame{
+    width:45%;
+    height: 400px;
+}
+@media screen and (max-width:760px) {
+    .Jobs-section{
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        padding-top: 1.4em;
+        padding-bottom: 2em;
+    }
+    .Jobs-section-container{
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+    .second{
+        grid-template-columns: 1fr !important;
+        width: 95%;
+        
+    }
+    .Jobs-card-container{
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+    .small-container{
+        width: 95%;
+        overflow-x: auto !important;
+        scroll-behavior: smooth;
+    }
+    .small-container::-webkit-scrollbar{
+        width: 0px;
+    }
+    .small-container-column{
+        height: 200px;
+        width: 200px !important;
+    }
+    .innerIFrame{
+        width:85%;
+        height: 400px;
+        gap: 10px;
+    }
+    .Jobs-section-subcontainers-padding{
+        padding: 2em;
+    }
+
+
+}
+@media screen and (max-width:500px) {
+    .innerIFrame{
+        width:97%;
+        height: 200px;
+        gap: 7px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Jobs-section-subcontainer-one{
+        border-right: 10px solid rgb(156, 7, 7);
+    }
+    .Jobs-section-subcontainers-padding{
+        padding: 1.5em;
+    }
+    .span-red-btn{
+        font-size: 0.8em;
+        
+    }
+}
+@media screen and (max-width:307px) {
+   
+    .Jobs-section-subcontainers-padding{
+        padding: 0.9em;
+    }
+    .span-red-btn{
+        font-size: 0.7em;
+        padding: 4px !important;
+    }
+}
+
+
+                                     /* Footer   */
+
+.Jobs-footer
+{
+    padding: 2em;
+}
+.Jobs-footer-container{
+    width: 100%;
+    position: relative;
+
+}
+.Jobs-footer-netflix-tag{
+    width: 120px;
+}
+
+.Jobs-footer-inner-container-links{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: grey;
+}
+.div-follow{
+    font-size:0.9em ;
+}
+.fontAwesomeHover:hover{
+ color: grey !important;
+}
+
+@media screen and (max-width:950px) {
+    .footer-subcontainer-one{
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        flex-direction: column;
+    }
+    .footer-subcontainer-two{
+        width: 100%;
+
+    }
+    
+    .inner-container-two{
+        order: 1;
+        flex-direction: column;
+        justify-content: flex-end !important;
+        /* border: 2px solid red; */
+    }
+    .inner-container-one{
+        order: 2;
+        justify-content: space-between !important;
+        /* gap: 8% !important; */
+        /* border: 2px solid rgb(139, 134, 134); */
+
+    }
+    .div-follow{
+        display: none;
+    }
+    .Jobs-footer-inner-container-links{
+        text-align: end;
+    }
+}
+@media screen and (max-width:400px) {
+    .Jobs-footer-container{
+        width: 92%;
+    
+    }
+    .Jobs-footer-netflix-tag{
+        width: 90px;
+    }
+    .inner-container-two{
+     gap: 10px !important;
+    }
+    .fontAwesomeHover{
+        width: 28px !important;
+        height: auto !important;
+    }
+    .Jobs-footer{
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+@media screen and (max-width:280px) {
+    .Jobs-footer-netflix-tag{
+        width: 60px;
+    }
+   
+    .fontAwesomeHover{
+        width: 18px !important;
+        height: auto !important;
+    }
+   
+   
+}
+
+                                /* Coockie-preferences */
+
+
+
+.switch-btn-parent{
+    width: 30px;
+    position :relative;
+    height: 20px;
+    cursor: pointer;
+    /* border: 2px solid green; */
+}
+.switch-horizontal{
+    width: 100%;
+    border-bottom: 11px solid rgba(10, 141, 184, 0.363);
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+}
+.switch-horizontal.horizontal-switched
+{
+    border-color: grey;
+}
+.switch-circle{
+    border: 9px solid rgba(133, 120, 243, 0.952);
+    border-radius: 50%;
+    position: absolute;
+    height: 100%;
+    left: 70%;
+    top: 4%;
+    transition: left 0.5s;
+}
+.switch-circle.circle-switched{
+    left: 0%;
+    border-color: grey;
+}
+.cookie-nav-link{
+    background-color: rgba(218, 215, 215, 0.418) !important;
+}
+.cookie-nav-link.active{
+    border-left: 8px solid rgb(214, 44, 44) !important;
+    background-color: white !important;
+}
+
+@media screen and (max-width:992px) {
+    .GAP{
+        gap: 8px !important;
+    }    
+}
+
+@media screen and (max-width:500px) {
+.GAP{
+    gap: 8px !important;
+    flex-direction: column-reverse !important;
+    font-size: 0.9em;
+}
+.NA,.T-C{
+    width: 100% !important;
+}   
+.privacy-preference-center{
+    text-overflow: ellipsis;
+    font-size: 0.9em;
+}
+}

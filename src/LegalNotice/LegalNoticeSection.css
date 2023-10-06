@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.LegalNotice-section{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+::selection{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+.LegalNotice-section-h1{
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p a:hover{
+text-decoration: underline !important;
+}
+
+@media screen and (max-width:600px) {
+   
+    p{
+        font-size: 0.8em;
+    }
+  
+    .LegalNotice-section{
+        padding-right: 0.7em;
+        padding-left: 0.7em;
+    }
+    
+}

@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.help-header{
+    background-color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.help-navbar{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+/* .navbar-signIn-div{
+    margin-right: 2em;
+}  */
+
+.netflix-svg{
+    width: 135px;
+    cursor: pointer;
+    /* margin-left: 2em; */
+}
+
+.a-btn{
+    border: 1px solid grey !important;
+    border-radius: 4px !important;
+    background-color: black !important;
+    padding: 2px 14px !important;
+    margin-right: 1em;
+    font-weight: 550 !important;
+    font-size: 0.95em;
+}
+.a-btn:hover{
+border: 1px solid white !important;
+}
+.a-signIn-btn{
+    font-size: 0.95em;
+    font-weight: bold !important;
+    border-radius: 4px !important;
+    background-color: rgb(219, 55, 55);
+    padding: 2px 12px !important;
+}
+.a-signIn-btn:hover{
+    background-color: rgb(199, 9, 9);
+    border-radius: 4px !important;
+}
+
+.Help-container{
+    width: 60% !important;
+    padding-bottom: 2.1em;
+}
+.Help-container .Help-row .col{
+    height: 40px;
+    border-radius: 3px;
+}
+.Help-container .Help-row .col .Help-input{
+    max-width: 90% !important;
+    min-width: 60%;
+    height: 100%;
+    border: none !important;
+    outline: none;
+    padding-left: 12px;
+    background-color: transparent !important;
+    caret-color: grey;
+    padding-top: 0px;
+    color: black;
+}
+@media screen and (min-width:0px) and (max-width:500px) {
+    .help-header{
+        padding-left: 0.7em !important; 
+        padding-right: 0.7em !important;
+    }
+    .help-header .Help-container{
+        width: 98% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .help-header img{
+        width: 60px;
+        margin: 0px !important;
+    }
+    .help-navbar{
+        justify-content: space-between !important;
+        margin: 0px !important; 
+        width: 98% !important;
+        padding-left: 0px !important;
+        /* border: 2px solid white; */
+        /* width: 100% !important; */
+    }
+   
+    .Help-navbar-signIn-div a{
+        font-size: 0.7em  !important;
+        padding: 0.5em !important;
+        
+    }
+    .a-btn{
+        margin-right: 0.7em;
+    }
+    .help-header .Help-row{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:220px) {
+    .help-navbar{
+        justify-content: space-between !important;
+        margin: 0px !important; 
+        padding-left: 0px !important;
+        border: 2px solid white;
+    }
+    .Help-navbar-signIn-div a{
+       margin-left: 2.5em;
+        
+    }
+}
+
+                                /* section  */
+
+.Help-section{
+    /* border: 2px solid red; */
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.Help-section a.a-SIGN-IN{
+    background-color: rgb(245, 14, 14) !important;
+}
+.Help-section a.a-SIGN-IN:hover{
+    background-color: rgb(223, 14, 14) !important;
+}
+.a-JOIN-NETFLIX:hover{
+    background-color: rgb(223, 14, 14) !important;
+    color: white !important;
+}
+.card .card-body a:hover, .Mycontainer .Myrow a:hover{
+color: red !important;
+text-decoration: underline !important;
+}
+.Mycontainer{
+    width: 100% !important;
+}
+.Mycontainer .Myrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 100% !important;
+}
+.hd{
+    display: none;
+}
+@media screen and (min-width:901px) and (max-width:1300px) {
+    .Mycontainer .Myrow{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:900px) {
+    .Mycontainer .Myrow{
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+    .Mycontainer{
+        width: 98% !important;
+    }
+    .Mycontainer .Myrow{
+    grid-template-columns: 1fr;
+    gap: 30px;
+    }
+    .hd{
+        display: inline-block;
+    }
+    .Help-section{
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+    }
+    .a-SIGN-IN{
+        padding-right: 0.5em !important;
+        padding-left: 1em !important;
+        margin-right: 3em !important;
+    }
+    .Mycontainer .Myrow a{
+        word-wrap: break-word;
+        /* width: 75% !important; */
+    }
+    .Mycontainer .Myrow h5{
+        font-weight: 550  !important;
+    }
+    .HelpCenter-card {
+        width: 80%  !important;
+    }
+    .card-body{
+        padding: 0.7em  !important;
+    }
+    .Help-section h4{
+        font-size: 1em;
+    }
+}
+
+                                /* Footer */
+
+.help-center-footer{
+    padding:  2em;
+    background-image: 
+    /* linear-gradient(10deg, rgba(229, 9, 20, 0) 58%, rgb(229, 9, 20) 128%) */
+    linear-gradient(10deg ,rgb(12, 12, 12) 59%,rgba(216, 13, 13, 0.753) 113%);
+}
+@media screen and (min-height:721px) {    
+.help-center-footer{
+    min-height: 75vh;
+}
+}
+.help-center-footer select{
+    outline: none;
+    padding-right: 4em !important;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.help-center-footer select:hover{
+    color: white !important;
+    background-color: rgb(177, 173, 173) !important;
+}
+.footer-a{
+    color: rgb(161, 161, 161);
+}
+.footer-a:hover{
+    text-decoration: underline !important;
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+    .help-center-footer{
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+    }
+    .contact-button{
+        width: 60% !important;
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+   a{
+       font-size: 0.68em;
+    }
+    h2{
+        font-size: 0.8em;
+    }
+   
+}
+
+
+                        /* Coockie-Preferences */
+
+
+
+.switch-btn-parent{
+    width: 30px;
+    position :relative;
+    height: 20px;
+    cursor: pointer;
+    /* border: 2px solid green; */
+}
+.switch-horizontal{
+    width: 100%;
+    border-bottom: 11px solid rgba(10, 141, 184, 0.363);
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+}
+.switch-horizontal.horizontal-switched
+{
+    border-color: grey;
+}
+.switch-circle{
+    border: 9px solid rgba(133, 120, 243, 0.952);
+    border-radius: 50%;
+    position: absolute;
+    height: 100%;
+    left: 70%;
+    top: 4%;
+    transition: left 0.5s;
+}
+.switch-circle.circle-switched{
+    left: 0%;
+    border-color: grey;
+}
+.cookie-nav-link{
+    background-color: rgba(218, 215, 215, 0.418) !important;
+}
+.cookie-nav-link.active{
+    border-left: 8px solid rgb(214, 44, 44) !important;
+    background-color: white !important;
+}
+
+@media screen and (max-width:992px) {
+    .GAP{
+        gap: 8px !important;
+    }    
+}
+
+@media screen and (max-width:500px) {
+.GAP{
+    gap: 8px !important;
+    flex-direction: column-reverse !important;
+    font-size: 0.9em;
+}
+.NA,.T-C{
+    width: 100% !important;
+}   
+.privacy-preference-center{
+    text-overflow: ellipsis;
+    font-size: 0.9em;
+}
+}

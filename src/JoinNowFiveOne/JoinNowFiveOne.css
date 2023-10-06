@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.join-now-five-one-section{
+    padding-top: 3em;
+    padding-bottom: 7em;
+}
+@media screen and (min-height:721px) {
+    .join-now-five-one-section{
+        min-height: 85vh;
+    }
+}
+.join-now-five-one-centerDIV{
+    width: 420px;
+    margin: auto;
+    /* border: 1px solid grey; */
+}
+.credit-card-IMG{
+    width: 45px;
+    margin-right: 0.5em;
+}
+.grey-border-class{
+    border: 1.5px solid rgb(170, 169, 169);
+    border-radius: 2px;
+    padding: 0.9em 0.8em;
+    margin-top: 1em;
+}
+.card-number-input,.card-number-input::placeholder,
+.card-month-input,.card-month-input::placeholder,
+.card-CVV-input,.card-CVV-input::placeholder,
+.card-name-input,.card-name-input::placeholder
+{
+    background-color: transparent !important;
+    color: black;
+    padding-bottom: 0.3em;
+}
+.card-number-input::-webkit-outer-spin-button,
+.card-number-input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card-number-label,.card-month-label,.card-CVV-label,.card-name-label{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+    font-size: 1.1em;
+    color: rgb(163, 162, 162);
+}
+
+.card-number-input:focus + .card-number-label,
+.card-number-input:not(:placeholder-shown) + .card-number-label
+{
+    top: 10%;
+    font-size: 0.8em;
+}
+
+.card-month-input::placeholder{
+   color: transparent !important ;
+}
+.card-month-input:focus::-webkit-input-placeholder {
+   color: grey !important;
+}
+
+.card-month-input:focus ~ .card-month-label,
+.card-month-input:not(:placeholder-shown) ~ .card-month-label
+{
+    top: 10%;
+    font-size: 0.8em;
+}
+
+.card-CVV-input:focus ~ .card-CVV-label,
+.card-CVV-input:not(:placeholder-shown) ~ .card-CVV-label
+{
+    top: 10%;
+    left: 5%;
+    font-size: 0.8em;   
+}
+
+.card-name-input:focus ~ .card-name-label,
+.card-name-input:not(:placeholder-shown) ~ .card-name-label
+{
+    top: 10%;
+    left: 5%;
+    font-size: 0.8em;   
+}
+
+.subcription-with-change-link-container{
+    margin-top: 1.5em;
+    padding: 0.7em;
+    background-color: rgba(185, 184, 184, 0.17);
+    border-radius: 4px;
+    margin-bottom: 2em;
+}
+.change-a-link{
+    color: rgb(53, 144, 219);
+    font-size: 0.98em;
+}
+.change-a-link:hover{
+    text-decoration: underline !important;
+}
+.payment-last-para{
+    font-size: 0.82em;
+    color: rgb(163, 162, 162);
+}
+.i-agree-checkbox{
+    width: 45px;
+    height: 25px;
+}
+.i-agree-label{
+    margin-left: 1em;
+    margin-top: -0.4em;
+    font-size: 1em !important;
+    color: grey;
+}
+.start-membership-btn{
+    padding: 1em 0 1em 0;
+    width: 100%;
+    font-size: 1.4em;
+    background-color: rgb(219, 10, 10);
+    border: none;
+    border-radius: 4px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.start-membership-btn:hover{
+    background-color: rgb(247, 11, 11);
+}
+
+@media screen and (max-width:450px) {
+    .join-now-five-one-centerDIV{
+        width: 95%;
+    }
+}
+@media screen and (max-width:320px) {
+    .join-now-five-one-centerDIV{
+        width: 318px;
+    }
+}

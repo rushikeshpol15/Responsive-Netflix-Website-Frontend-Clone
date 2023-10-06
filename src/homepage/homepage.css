@@ -1,0 +1,368 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+                             /* header */
+.header{
+    background-image:  linear-gradient(103deg,rgba(2, 3, 46, 0.822)34%,rgba(2, 2, 2, 0.164)97%),url("landing page.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.netflix-svg-img{
+    width:150px;
+    /* height: 75px; */
+    margin-left:35px;
+}
+.selectLanguage{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.192);
+    padding-right: 10px;
+    color: white;
+}
+.language-picker{
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 8px;
+    transition: outline 0.7s;
+}
+.language-picker:hover{
+    outline: 2px solid white;
+}
+.sign-in-button{
+    background: red; 
+    color: white;
+    padding: 4px 12px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+    font-weight: 500;
+    border: transparent;
+    font-size: 1.1em;
+    font-weight: 750;
+}
+.sign-in-button:hover{
+    background: rgb(196, 13, 13);
+}
+.center-content{
+    color: white;
+    width: 57%;
+    margin-left: 10%;
+    margin-top: 6.5em;
+    padding-bottom: 5em;
+}
+
+.center-content h1{
+    font-weight: 1000;
+    font-size: 3.7em;
+    font-family: sans-serif;
+    line-height: 1.3em;
+}
+.center-content h2{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 20px 0px;
+}
+.center-content h3{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+.input-box-container{
+    width:100%;
+    /* border: 2px solid honeydew; */
+    height: 55px;
+    gap: 15px;
+}
+.input-div{
+    position: relative;
+    width: 60%;
+}
+.form{
+    /* border: 2px solid yellow !important; */
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 7px;
+    /* height: 100%; */
+    padding-left: 9px;
+    /* padding-bottom: 0.5em; */
+    margin-top: 0.2em;
+    color: white;
+    font-size: 1em;
+}
+.form:focus ~ .placeholder-text,
+.form:not(:placeholder-shown) ~ .placeholder-text{
+    font-size: 0.7em;
+    top: 6px;
+    /* margin-bottom: 7px; */
+}
+.placeholder-text{
+    color: rgb(143, 142, 142);
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 18px;
+    left: 10px;
+    transition:  0.5s;
+}
+/* .button-a-text{
+    font-size: 1.1em;
+    font-weight: 750;
+    border-radius: 7px;
+} */
+
+                            /* section */
+    
+.section{
+    /* border: 2px solid sblue; */
+    /* height: fit-content; */
+    background-color: rgb(3, 3, 43);
+}
+.section-container{
+    width: 80%;
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    background-image: linear-gradient(320deg, rgba(70, 13, 87, 0.425)25%,rgba(11, 5, 99, 0.76) 60%,rgba(128, 7, 7, 0.623) 90%);
+    /* background-image: linear-gradient(320deg,rgba(12,4,32,0.7) 24%,rgba(12, 2, 50,0.9),90%,rgba(218, 5, 0, 0.61) 104%); */
+    margin-left: 10%;
+}
+.section-container h1{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.section-container h2{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.hr{
+    border: 5px solid rgb(1, 1, 14);
+    margin: 20px 5%;
+}
+
+                        /* Accordion */
+
+.Accordion-section{
+    background-color: rgb(3, 3, 43);
+    padding-top: 4em;
+}
+.Accordion-section-container{
+    /* border: 2px solid white; */
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+}
+.Accordion-section-container h1{
+    margin-bottom: 1em;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.accordion-header button,.accordion-body{
+   width: 100% !important;
+   font-size: 1.5em;
+   padding: 5px !important;
+   padding-left: 18px;
+   font-family: sans-serif !important;
+   color: white !important;
+   background-color: rgb(47, 47, 48) !important;
+}
+.accordion-header:hover{
+    background-color: rgb(69, 69, 104) !important;
+}
+.accordion-header button .plus{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-right: 0.5em;
+    transition: transform 0.5s;
+}
+.accordion,.accordion-item,.accordion-header{
+    border: none !important;
+    border-radius: none !important;
+}
+
+.accordion-header{
+    border: 1px solid rgba(42, 5, 85, 0.651) !important;
+}
+.plus.active-plus{
+    transform: rotate(45deg);
+}
+.Accordion-bottom-div{
+    margin-left: 10%;
+    width: 55%;
+}
+.Accordion-bottom-div h5{
+    font-family: sans-serif;
+}
+
+                            /* footer */
+
+.footer{
+    background-color: rgb(3, 3, 43);
+    margin-top: -0.1em;
+}
+.footer-container{
+    /* border: 2px solid white; */
+    width: 80%;
+    margin-left: 10%;
+}
+.footer-container span,.footer-container a{
+    color: grey;
+}
+.footer-container span{
+    font-weight: 700;
+}
+.footer-container a{
+    font-weight: 500;
+}
+.col{
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:601px) and (max-width:960px) {
+     .center-content h1, .container .row h1{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width:780px) and (max-width:960px) {
+    .input-box-container button{
+        padding-left: 1.4em !important;
+        padding-right: 1.4em !important;
+    }   
+}
+
+@media screen and (min-width:0px) and (max-width:650px) {
+    .netflix-svg-img{
+        width: 90px;
+        margin-left: 20px;
+    }
+    .center-content,.Accordion-bottom-div
+    {
+        width: 80%;
+    }
+    .center-content{
+        margin-top: 3em;
+        padding-bottom: 4em;
+    }
+    .center-content h1, .container .row h1{
+        font-size: 1.8em;
+    }
+    .center-content h2, .container .row h2{
+        font-size: 1.3em;
+    }
+    .center-content h3{
+        font-size: 1em;
+    }
+    .input-box-container{
+        flex-direction: column;
+        height: auto;
+    }
+    .input-box-container button{
+        width: 45%;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+    .input-div{
+        height: 50px;
+        width: 100%;
+    }
+    .input-box-container .button-a-text{font-size: 0.8em;}
+    .header nav{
+        justify-content: flex-end;
+    }
+    .nav-last-div{
+        margin-left: 10%;
+    }
+    .accordion-body,.accordion-header button{
+        font-size: 1.3em;
+    }
+    .sign-in-button{
+        font-size: 0.9em;
+    }
+  .reverse{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:450px) {
+    .netflix-svg-img{
+        margin-left: 10px;
+    }
+    .accordion-header button,.accordion-body{
+        font-size: 1em;
+    }
+
+}
+@media screen and (max-width:340px) {
+    .nav-last-div{
+        flex-direction: column !important;
+        gap: 1em;
+    }
+}
+
+
+                                /* Cookie-Preferences */
+
+
+.switch-btn-parent{
+    width: 30px;
+    position :relative;
+    height: 20px;
+    cursor: pointer;
+    /* border: 2px solid green; */
+}
+.switch-horizontal{
+    width: 100%;
+    border-bottom: 11px solid rgba(10, 141, 184, 0.363);
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+}
+.switch-horizontal.horizontal-switched
+{
+    border-color: grey;
+}
+.switch-circle{
+    border: 9px solid rgba(133, 120, 243, 0.952);
+    border-radius: 50%;
+    position: absolute;
+    height: 100%;
+    left: 70%;
+    top: 4%;
+    transition: left 0.5s;
+}
+.switch-circle.circle-switched{
+    left: 0%;
+    border-color: grey;
+}
+.cookie-nav-link{
+    background-color: rgba(218, 215, 215, 0.418) !important;
+}
+.cookie-nav-link.active{
+    border-left: 8px solid rgb(214, 44, 44) !important;
+    background-color: white !important;
+}
+
+@media screen and (max-width:992px) {
+    .GAP{
+        gap: 8px !important;
+    }    
+}
+
+@media screen and (max-width:500px) {
+.GAP{
+    gap: 8px !important;
+    flex-direction: column-reverse !important;
+    font-size: 0.9em;
+}
+.NA,.T-C{
+    width: 100% !important;
+}   
+.privacy-preference-center{
+    text-overflow: ellipsis;
+    font-size: 0.9em;
+}
+}

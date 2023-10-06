@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.Account-body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.377)), url("../homepage/landing page.jpg") ;
+    /* height: 100vh; */
+    background-size: cover;
+    min-height: 100vh;
+}
+.SVG{
+    width: 165px;
+    cursor: pointer;
+}
+.Account-header{
+    padding: 1.5em  2.5em;
+}
+.Account-section .Account-container{
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 35%  !important;
+}
+.Account-section  .Account-container .Account-row{
+    padding: 3.3em;
+    /* padding-top: 3.3em;
+    padding-left: 3em;
+    padding-bottom: 3.3em;
+    padding-right: 3em; */
+}
+.form{
+    position: relative;
+    height: 48px;
+    width: 100% !important;
+}
+input{
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: rgb(51, 51, 51) !important;
+    height: 100%;
+    width: 100%;
+    color: white;
+    outline: none  !important;
+    border: none  !important;
+}
+
+label{
+    color: rgb(170, 169, 169);
+    position: absolute;
+    left: 30px;
+    top: 13px;
+    transition: 0.3s;
+}
+input:focus + label,
+input:not(:placeholder-shown) + label
+{
+    left: 30px;
+    top: 7px;
+    font-size: 0.7em;
+}
+.show-hide-button{
+    border: none;
+    padding: 7px;
+    background-color: rgb(51, 51, 51) !important;
+    color: rgb(170, 169, 169);
+}
+/* .row{
+    border: 2px solid hotpink !important;
+} */
+.sign-in-btn{
+
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(209, 4, 4);
+    font-weight: bold;
+    border: none;
+}
+.form-check-input{
+    border-radius: 2px !important;
+    margin-right: 0px !important;
+    width: 5px !important;
+}
+.form-check-label{
+    font-size: 0.74em !important;
+    margin-left: -6px !important;
+    font-weight: bold;
+    padding: 0 !important;
+}
+
+.need-help{
+    color: rgb(168, 167, 167);
+    font-size: 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.need-help:hover,a.sign-up:hover,.small a:hover{
+    text-decoration: underline !important;
+}
+.New-to-Netflix,.small{
+    color: rgb(168, 167, 167);
+    /* color: rgb(12, 47, 245); */
+}
+.small{
+    font-size: 0.75em;
+}
+.Account-learn-more-span{
+    color:rgb(12, 47, 245);
+    cursor: pointer;
+}
+.Account-learn-more-span:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:1050px) {
+    .Account-section  .Account-container{
+        width: 80% !important;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .Account-section  .Account-container{
+        width: 96% !important;
+        /* border: 1px solid white; */
+        /* margin-left: 0em !important;
+        margin-right: 0em !important; */
+        margin: auto;
+
+    }
+    .Account-header{
+        padding-left: 1em;
+        padding-right: 0em;
+    }
+    .Account-section  .Account-container .Account-row{
+        /* border: 1px solid yellow; */
+        padding-left: 0.2em !important;
+        padding-right: 0.1em !important;
+        margin-right: 0em !important ;
+    }
+    .Account-section  .Account-container  .Account-row >div{
+        padding-left: 0em !important;
+    }
+    .Account-row  .Account-section-h2{
+        padding-left: 0em !important;
+        font-size: 1.8em !important;
+    }
+    .SVG{
+        width: 100px;
+    }
+    .Account-section{
+        padding-left: 0.1em !important;
+        padding-bottom: 0em  !important;
+        padding-right: 0em !important;
+    }
+}
+
+                    /* //footer  */
+
+.Account-footer{
+    background-color: rgba(0, 0, 0, 0.692);
+    padding-left:4em ;
+    padding-right:4em ;
+}
+.Account-footer .Account-footer-container{
+    width: 80% !important;
+    padding-top: 1.5em;
+}
+ .Account-footer   .Account-footer-row{
+    padding-top: 1.5em;
+}
+ .Account-footer .Account-footer-container span,footer .Account-footer-container span a{
+    color: rgb(168, 167, 167);
+    font-weight: bold;
+}
+ .Account-footer .Account-footer-container span a:hover{
+    text-decoration: underline !important;
+}
+ .Account-footer .Account-footer-row a{
+    color: rgb(168, 167, 167);
+    text-decoration: none;
+    font-size: 0.8em;
+}
+ .Account-footer .Account-footer-row a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+    .Account-footer{
+        padding-left: 0.7em !important;
+        padding-right: 0em !important;
+    }
+    .Account-footer .Account-footer-container{
+        margin-right: 0em !important;
+        width: 90% !important;
+    }
+
+ 
+}

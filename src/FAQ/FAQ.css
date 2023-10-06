@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.FAQ-section{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.4em;
+    padding-bottom: 2em;
+}
+::selection{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+.FAQ-container{
+    display: grid;
+    grid-template-columns: 2fr 0.7fr;
+    gap: 4.5em;
+    margin-top: 2em;
+    /* border: 2px solid blue; */
+    grid-template-rows: auto;
+}
+@media screen and (max-width:1035px) {
+    .FAQ-container{
+        grid-template-columns: 1fr;
+    }
+}
+.FAQ-subcontainer-one a:hover{
+    text-decoration: underline !important;
+}
+.left-border-div{
+    border-left: 5px solid rgba(201, 199, 199, 0.685);
+    padding-left: 15px;
+    background-color: rgba(202, 201, 201, 0.123);
+}
+.small-span-text{
+    font-size: 0.9em;
+}
+ul.FAQ-orderlist{
+    margin-top: 0.1em !important;
+    margin-left: 0 !important;
+    list-style-type: decimal !important;
+    display: inline;
+}
+ul.FAQ-orderlist li {
+    margin: 5px !important;
+}
+.FAQ-subcontainer-two{
+    outline: 1px solid grey;
+    border-top: 6px solid rgb(243, 41, 41);
+    padding: 1em;
+    border-radius: 5px;
+    height: fit-content;
+}
+.FAQ-subcontainer-two-span{
+    margin-bottom: 1em;
+}
+.FAQ-subcontainer-two .FAQ-subcontainer-two-span a{
+    font-size: 1.05em;
+}
+.FAQ-subcontainer-two .FAQ-subcontainer-two-span a:hover{
+    color: grey !important;
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+    .FAQ-section{
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+    }
+}

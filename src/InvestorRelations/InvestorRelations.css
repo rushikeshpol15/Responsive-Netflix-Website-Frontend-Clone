@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.investor-relations-navbar{
+   /* padding: 1em 3em 1em; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   /* box-shadow: 8px 0px 20px 1px; */
+    
+}
+.investor-relations-netflix-svg-container{
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+.investor-relations-netflix-svg-tag{
+    width: 150px;
+}
+.inv-acc-ans-one,.inv-acc-ans-two,.inv-acc-ans-three,.inv-acc-ans-four,.inv-acc-ans-five,.inv-acc-ans-six
+{
+    font-weight: bold;
+}
+.inv-acc-q-one,.inv-acc-q-two,.inv-acc-q-three,.inv-acc-q-four,.inv-acc-q-five,.inv-acc-q-six
+{
+    font-size: 0.78em;
+    cursor: pointer;
+}
+.investor-search-text-close-container{
+    border-left: 8px solid red;
+    background-color: rgb(29, 29, 29);
+    padding: 0.7em;
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+    height: 79px !important;
+}
+.investor-nav-search-text{
+    background-color: rgb(29, 29, 29) !important;
+    padding-top: 0.2em;
+    width: 400px;
+}
+.widthIsZero
+{
+   display: none;
+}
+.change-header-color{
+    background-color: black !important;
+}
+.investor-nav-search-text::placeholder{
+    color: white;
+    background-color: rgb(29, 29, 29);
+    
+}
+.investor-navToggle{
+    display: none;
+}
+@media screen and (max-width:1150px) {
+    .investor-relations-netflix-svg-container{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+@media screen and (min-width:1120px) {
+    .accor-hvr:hover{
+        color: red !important;
+        
+    }   
+    .inv-acc-ans-one,.inv-acc-ans-two,.inv-acc-ans-three,.inv-acc-ans-four,.inv-acc-ans-five,.inv-acc-ans-six
+    {
+        display: flex;
+        /* display: none; */
+        justify-content: center;
+        padding: 2em;
+        position: absolute;
+        z-index: 1;
+        bottom: -110%;
+        left: 8%;
+        /* border: 0.4px solid transparent; */
+        background-color: white;
+        width: 87%;
+        gap: 1em;
+    } 
+    .investor-navbar-accordion{
+        display: flex;
+        gap: 0.8em;
+    }
+   
+}
+
+@media screen and (max-width:1120px) {
+    .investor-navbar-accordion{
+        display: flex !important;
+        flex-direction: column;
+        gap: 1.4em;
+        position: absolute;
+        z-index: 1;
+        top: 0%;
+        left: -150%;
+        background-color: white;
+        border-right: 15px solid red;
+        height: 100vh;
+        padding: 3.5em 0.9em 3.5em 2em;
+        transition: 1s;
+    }
+    .slideRIght{
+        left: 0%;
+    }
+    .inv-acc-ans-one,.inv-acc-ans-two,.inv-acc-ans-three,.inv-acc-ans-four,.inv-acc-ans-five,.inv-acc-ans-six
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5em 0.5em 1em 0.5em;
+        gap: 1em;
+        font-size: 0.9em !important;
+    } 
+    .accordion-close{
+        display: inline-block !important;
+        align-self: self-start;
+    }
+
+    .investor-relations-netflix-svg-container{
+        order: 2;
+        margin: 0.6em 0px;
+        gap: 0.5em !important;
+    }
+    .investor-search-text-close-container{
+        /* width: 98%; */
+        /* height: 45px; */
+        order: 1;
+    }
+    .investor-navToggle{
+        display: block;
+        /* height: px; */
+        padding: 2em 1em !important;
+        order: 3;
+    }
+    .investor-nav-search-text{
+        width: 65%;
+        order: 3;
+    }
+    .investor-relations-netflix-svg-tag{
+        width: 85px;
+    }
+    .font-awesome-search-for-nav{
+        order: 2;
+    }
+    .font-awespme-close-for-nav{
+        order: 1;
+    }
+}
+@media screen and (max-width:355px) {
+    .investor-relation-svg-H5{
+        font-size: 0.8em;
+    }
+    .investor-nav-search-text{
+        font-size: 0.85em;
+    }
+        
+}
+
+
+
+
+
+.investor-relations-header{
+    position: relative;
+}
+.investor-header-main-container{
+    display: grid;
+    grid-template-columns: 1.9fr 0.2fr  1fr;
+}
+
+.inverstor-header-subcontainer-one{
+    background-image: linear-gradient(110deg,rgba(61, 61, 61, 0.623),rgba(0, 0, 0, 0.548))
+    , url("https://s22.q4cdn.com/959853165/files/design/slider/slider1.jpg");
+    background-size: cover;
+}
+.investor-header-inner-left-content{
+    margin-left: 3em;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    width: 80%;
+}
+.investor-header-red-border-class{
+    background-image: linear-gradient(to left,rgb(224, 26, 26) ,rgb(0, 0, 0) ) ;
+}
+
+.inverstor-header-subcontainer-two{
+    background-color: rgb(29, 29, 29) !important;
+}
+.investor-header-inner-right-content{
+    margin-top: 6em;
+    margin-left: 5em;
+}
+
+@media screen and (max-width:1050px) {
+    .investor-header-main-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.9fr 64px 1fr;
+    }   
+    .investor-header-inner-left-content{
+    margin-top: 4em;
+    margin-bottom:  2em;
+    margin-left:  1em;
+    width: 90%;
+    }
+    .inhe-h-one{
+        font-size: 2em !important;
+    }
+    .inhe-p-one{
+        font-size: 0.9em;
+    }
+    .investor-header-red-border-class{
+        background-image: linear-gradient(to bottom,rgb(224, 26, 26) ,rgb(0, 0, 0) ) ;
+    }
+    .investor-header-inner-right-content{
+        margin: 4em;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+}
+/* @media screen and (max-width:550px) {
+    .investor-header-inner-right-content{
+        margin-top: 4em;
+        margin-left:  4em;
+    }
+} */
+
+                        /* section  */
+.investor-relations-section-one-container{
+    display: grid;
+    margin: 5em 3em;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.8em;
+}
+.investor-relations-section-one-card{
+    padding: 3em 2em;
+    margin-top: 1.5em;
+    /* box-shadow: 2px 2px 8px 7px rgba(128, 128, 128, 0.534); */
+}
+.i-r-s-one{
+    border-bottom: 12px solid transparent;
+    transition: border 0.7s;
+}
+.i-r-s-one:hover{
+    border-bottom: 12px solid red;
+}
+.HOVER_RED:hover{
+color: red !important; 
+text-decoration: none !important;
+cursor: pointer;
+}
+.investor-list-padding{
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+
+}
+.investor-list-padding:hover{
+    border-left: 2px solid red;
+}
+
+@media screen and (max-width:800px) {
+    .investor-relations-section-one-container{
+            grid-template-columns: 1fr;
+            margin: 3em 1em;
+            /* width: 99%; */
+    }
+    .investor-relations-section-one-card{
+        padding: 2em 1em;
+    }
+    .inv-sec-one-anch-tag{
+        font-size: 1.1em !important;
+    }
+    .fo-aw-smal-txt{
+        font-size: 0.9em !important;
+    }
+}
+
+
+
+.investor-section-three-card-section{
+    background-color: rgba(128, 128, 128, 0.075);
+    padding: 3em ;
+    position: relative;
+    /* border: 2px solid blue; */
+    margin-bottom: 2em;
+}
+.three-card-bg-png{
+    background-image: url("https://s22.q4cdn.com/959853165/files/design/financial-releases-bg.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    right: 2%;
+    width: 300px;
+    height: 389px;
+}
+.three-card-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5em;
+    margin-top: 2em;
+    /* margin-bottom: 1,5em; */
+}
+.investor-three-card-all-release-btn{
+    color: white;
+    text-decoration: none;
+    padding: 0.8em 1.7em;
+    border: 2px solid red;
+    background-color: rgb(211, 8, 8);
+    transition:  0.7s;
+}
+.investor-three-card-all-release-btn:hover{
+    color: red;
+    /* border: none; */
+    background-color: transparent;
+    text-decoration: none !important;
+}
+
+@media screen and (max-width:800px) {
+    .three-card-grid-container{
+        grid-template-columns: 1fr ;
+    } 
+    .investor-section-three-card-section{
+        padding: 2.5em 1em;
+    }
+
+}
+
+
+.quarterly-earnings-section{
+    padding: 3em 7em;
+    margin-bottom: 1.5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.856)),
+    url("https://s22.q4cdn.com/959853165/files/design/quarterly-earnings-bg.jpg");
+    background-size: cover;
+}
+.investor-earning-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+@media screen and (max-width:800px) {
+    .quarterly-earnings-section{
+    padding: 2.5em 7em;
+    }
+
+    .investor-earning-grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:610px) {
+    .quarterly-earnings-section{
+        padding: 2.5em 4em;
+    }
+}
+@media screen and (max-width:425px) {
+    .quarterly-earnings-section{
+        padding: 2.5em 1em;
+    }
+}
+
+.investor-last-section{
+    padding: 2em;
+    /* padding-right: 2em; */
+    margin-bottom: 2em;
+}
+
+.investor-last-section-container{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
+    gap: 0.7em;
+}
+.investor-last-section-subone{
+    background-color: rgb(29, 29, 29);
+    border-right: 10px solid red;
+}
+.inv-last-sec-pad{
+    padding: 2.5em 0.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+.investor-last-section{
+    padding: 2em 0em;
+}
+.investor-last-section-subone{
+    border-right: none;
+    border-bottom: 10px solid red;
+}
+.inv-last-sec-pad{
+    font-size: 1em;
+    padding: 2em 0.5em;
+
+}
+.investor-last-section-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.2fr repeat(4,1fr);
+    gap: 0.3em;
+}
+.inves-h-two{
+    font-size: 1.4em;
+}
+}

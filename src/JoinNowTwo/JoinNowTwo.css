@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.join-now-two-section{
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+}
+@media screen and (min-height:721px) {
+    .join-now-two-section{
+        min-height: 85vh;
+    }
+}
+.join-now-two-section-center-box{
+    width: 320px;
+    margin: auto;
+    /* border: 1px solid royalblue; */
+}
+.faCHeck{
+    height:  40px !important;
+    margin-bottom: 2em;
+}
+.faCheckTick{
+    height: 27px;
+    /* margin-right: 1em; */
+    /* margin-top: 0.4em; */
+}
+.join-now-two-section-last-btn{
+    background-color: rgb(211, 10, 10);
+    font-size: 1.4em;
+    border-radius: 4px;
+    margin-top: 2em !important;
+}
+.join-now-two-section-last-btn:hover{
+    background-color: rgb(235, 17, 17);
+}
+
+@media screen and (max-width:450px) {
+    .join-now-two-section-center-box{
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid royalblue; */
+    }
+}
