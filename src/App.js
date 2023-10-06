@@ -79,29 +79,6 @@ function App() {
 
 
 
-      // <Jobs/>
-      // <HelpCenter/>
-      // <CoockiePreferences/>
-      // <WayToWatch/>
-      // <Account/>
-      // <HomePage handleEmail={handleEmail}/>
-      // <Privacy/>
-      // <CorporateInformation/>
-      // <ContactUs/>
-      // <LegalNotice/>
-      // <FAQ/>
-      // <TermsOfUse/>
-    // <InvestorRelations/>
-    // <MediaCenter/>
-    // <OnlyOnNetflix/>
-    // <JoinNowOne mailId={emailId}/>
-    // <JoinNowMain />
-    // <JoinNowTwo/>
-    // <JoinNowThree handleSubsciption={handleSubscription}/>
-    // <JoinNowFour/>
-    // <JoinNowFiveOne plan={subsriptionplan} price={subsriptionplanPrice}/>
-    // <JoinNowFiveTwo/>
-    // <ForgotPassword/>
     )
 }
 
