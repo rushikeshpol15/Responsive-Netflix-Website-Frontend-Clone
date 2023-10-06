@@ -45,9 +45,9 @@ function App() {
 
   return (
 
-         <BrowserRouter basename='/homepage'>
+         <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path='/homepage' element={<HomePage handleEmail={handleEmail}/>}/>
+            <Route path={process.env.PUBLIC_URL} element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
             <Route path='/ForgotPassword' element={<ForgotPassword/>} />
             <Route path='/HelpCenter' element={<HelpCenter/>}/>
