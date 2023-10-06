@@ -45,7 +45,7 @@ function App() {
 
   return (
 
-         <HashRouter >
+         <HashRouter basename=''>
           <Routes>
             <Route path='/' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
