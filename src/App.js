@@ -45,9 +45,9 @@ function App() {
 
   return (
 
-         <BrowserRouter basename={process.env.PUBLIC_URL}>
+         <HashRouter>
           <Routes>
-            <Route path={process.env.PUBLIC_URL} element={<HomePage handleEmail={handleEmail}/>}/>
+            <Route path='/ element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
             <Route path='/ForgotPassword' element={<ForgotPassword/>} />
             <Route path='/HelpCenter' element={<HelpCenter/>}/>
@@ -73,7 +73,7 @@ function App() {
 
 
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
 
 
 
