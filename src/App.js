@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import HomePage from "./homepage/HomePage";
 import ContactUs from "./ContactUs/ContactUs";
 import LegalNotice from "./LegalNotice/LegalNotice";
@@ -45,9 +45,9 @@ function App() {
 
   return (
 
-         <HashRouter basename='/home'>
+         <HashRouter >
           <Routes>
-            <Route path='/home' element={<HomePage handleEmail={handleEmail}/>}/>
+            <Route path='/' element={<HomePage handleEmail={handleEmail}/>}/>
             <Route path='/Account' element={<Account handleEmail={handleEmail}/>} />
             <Route path='/ForgotPassword' element={<ForgotPassword/>} />
             <Route path='/HelpCenter' element={<HelpCenter/>}/>
