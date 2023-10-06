@@ -20,7 +20,7 @@ function Header(props)
 
             <div className='nav-last-div me-sm-5 d-inline-flex align-items-center  '>
             <SelectComponent/>
-            <a  href='/Responsive-Netflix-Website-Frontend-Clone/#/Account' className='sign-in-button ms-sm-4 ms-2 text-decoration-none '>Sign In</a>
+            <a  href='/Account' className='sign-in-button ms-sm-4 ms-2 text-decoration-none '>Sign In</a>
             </div>
        
         </nav>
