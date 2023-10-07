@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Responsive-Netflix-Website-Frontend-Clone/static/css/main.41df16ba.css",
-    "main.js": "/Responsive-Netflix-Website-Frontend-Clone/static/js/main.7380729e.js",
+    "main.js": "/Responsive-Netflix-Website-Frontend-Clone/static/js/main.9cd1cd45.js",
     "static/js/787.0904c1f0.chunk.js": "/Responsive-Netflix-Website-Frontend-Clone/static/js/787.0904c1f0.chunk.js",
     "static/media/FAQ-one.png": "/Responsive-Netflix-Website-Frontend-Clone/static/media/FAQ-one.839095234d0085434a5f.png",
     "static/media/FAQ-five.png": "/Responsive-Netflix-Website-Frontend-Clone/static/media/FAQ-five.4423f342ad2dbfc2ca29.png",
@@ -26,11 +26,11 @@
     "static/media/globe.svg": "/Responsive-Netflix-Website-Frontend-Clone/static/media/globe.c424fe45037313e803d4e9aec8a700a8.svg",
     "index.html": "/Responsive-Netflix-Website-Frontend-Clone/index.html",
     "main.41df16ba.css.map": "/Responsive-Netflix-Website-Frontend-Clone/static/css/main.41df16ba.css.map",
-    "main.7380729e.js.map": "/Responsive-Netflix-Website-Frontend-Clone/static/js/main.7380729e.js.map",
+    "main.9cd1cd45.js.map": "/Responsive-Netflix-Website-Frontend-Clone/static/js/main.9cd1cd45.js.map",
     "787.0904c1f0.chunk.js.map": "/Responsive-Netflix-Website-Frontend-Clone/static/js/787.0904c1f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41df16ba.css",
-    "static/js/main.7380729e.js"
+    "static/js/main.9cd1cd45.js"
   ]
 }
