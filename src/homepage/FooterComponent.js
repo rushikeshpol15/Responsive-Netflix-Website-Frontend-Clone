@@ -2,9 +2,13 @@ import SelectComponent from "./SelectComponent";
 import "./homepage.css";
 import nVSG from "./netflixSvg.svg";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 function Footer()
 {
+        let Navigate=useNavigate();
+
     let[checkSwitch,setCheckSwitch]=useState(false);
 
     return(
@@ -92,24 +96,24 @@ function Footer()
                 <span >Questions? Call <a href="#" >000-800-919-1694</a></span>
                 <div className="container g-0 my-5">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" >
-                        <div className="col"> <a href="/FAQ">FAQ</a>  </div>
-                        <div className="col"> <a  href="/HelpCenter">Help Center</a>  </div>
-                        <div className="col"> <a  href="/Account">Account</a>  </div>
-                        <div className="col"> <a  href="/MediaCenter">Media Center</a>  </div>
+                       <div className="col"> <a onClick={()=>{Navigate('/FAQ')}}>FAQ</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/HelpCenter')}}>Help Center</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/Account')}}>Account</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/MediaCenter')}}>Media Center</a>  </div>
 
-                        <div className="col"> <a  href="/InvestorRelations">Investor Relations</a>  </div>
-                        <div className="col"> <a  href="/Jobs">Jobs</a>  </div>
-                        <div className="col"> <a  href="/WayToWatch">Way To Watch</a>  </div>
-                        <div className="col"> <a  href="/TermsOfUse">Terms of Use</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/InvestorRelations')}}>Investor Relations</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/Jobs')}}>Jobs</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/WayToWatch')}}>Way To Watch</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/TermsOfUse')}}>Terms of Use</a>  </div>
 
-                        <div className="col"> <a  href="/Privacy">Privacy</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/Privacy')}}>Privacy</a>  </div>
                         <div className="col"> <a  href="#staticBackdrop" data-bs-toggle="modal">Cookie Preferences</a>  </div>
-                        <div className="col"> <a  href="/CorporateInformation">Corporate Information</a>  </div>
-                        <div className="col"> <a  href="/ContactUs">Contact Us</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/CorporateInformation')}}>Corporate Information</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/ContactUs')}}>Contact Us</a>  </div>
 
                         <div className="col"> <a  href="#">Speed Test</a>  </div>
-                        <div className="col"> <a  href="/LegalNotice">Legal Notices</a>  </div>
-                        <div className="col"> <a  href="/OnlyOnNetflix">Only on Netflix</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/LegalNotices')}}>Legal Notices</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/OnlyOnNetflix')}}>Only on Netflix</a>  </div>
 
                     </div>
                 </div>
