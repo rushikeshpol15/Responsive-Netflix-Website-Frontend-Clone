@@ -110,7 +110,7 @@ function Account(props)
 
                         <span className="small pb-2" >This page is protected by Google reCAPTCHA to ensure you're not a bot.{(LEarnMoreVisibility)? <span  className="Account-learn-more-span"  onClick={()=>{setLearnMOreViSibility(false)}}>Learn more.</span>:null}</span>
 
-                       {(!LEarnMoreVisibility)?<p className="small" >The information collected by Google reCAPTCHA is subject to the Google <a href="/Privacy" className="text-decoration-none fw-bold" style={{fontSize:"inherit"}}>Privacy Policy</a> and <a href="/TermsOfUse" className="text-decoration-none fw-bold" style={{fontSize:"inherit"}}>Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</p>:null}
+                       {(!LEarnMoreVisibility)?<p className="small" >The information collected by Google reCAPTCHA is subject to the Google <a onClick={()=>{NaviGate('/Privacy')}} className="text-decoration-none fw-bold" style={{fontSize:"inherit",cursor:"pointer"}}>Privacy Policy</a> and <a onClick={()=>{NaviGate('/TermsOfUse')}} className="text-decoration-none fw-bold" style={{fontSize:"inherit",cursor:"pointer"}}>Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</p>:null}
 
 
                     </div>
