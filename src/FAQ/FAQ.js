@@ -1,16 +1,19 @@
 import HelpCenterFooter from "../HelpCenter/HelpCenterFooter";
 import HelpCenterNavbar from "../HelpCenter/HelpCenterNavbar";
 import FAQSection from "./FAQSection";
-import { useEffect } from "react";
+import { useEffect , useState } from "react";
 
 
 function FAQ()
 {
-     useEffect(()=>{
-        setTimeout(()=>{
+     let[first,setFirst]=useState(0);
+    
+    useEffect(()=>{
+      let timer= setTimeout(()=>{
             window.location.reload();
         },10);
-    },[]);
+        return (clearTimeout(timer));
+    },[first]);
      
     return(
         <>
