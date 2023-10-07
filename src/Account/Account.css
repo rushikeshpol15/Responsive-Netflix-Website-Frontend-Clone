@@ -98,6 +98,8 @@ input:not(:placeholder-shown) + label
     font-size: 0.75em;
     font-weight: bold;
     text-decoration: none;
+    cursor: pointer;
+
 }
 .need-help:hover,a.sign-up:hover,.small a:hover{
     text-decoration: underline !important;
