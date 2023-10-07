@@ -102,9 +102,9 @@ function JoinNowFiveOneSection(props)
 
                 <button className="start-membership-btn text-white">Start Membership</button>
 
-                <p className="payment-last-para" >This page is protected by Google reCAPTCHA to ensure you're not a bot. {(!learnMoreVisibility)?<a href="#para" className="text-decoration-none change-a-link fw-bold" onClick={()=>{setLearnMoreVisibility(true)}} style={{fontSize:"inherit"}}>Learn more.</a>:null}</p>
+                <p className="payment-last-para" >This page is protected by Google reCAPTCHA to ensure you're not a bot. {(!learnMoreVisibility)?<a href="#" className="text-decoration-none change-a-link fw-bold" onClick={()=>{setLearnMoreVisibility(true)}} style={{fontSize:"inherit"}}>Learn more.</a>:null}</p>
 
-               {(learnMoreVisibility)?<p className="payment-last-para" id="para" >The information collected by Google reCAPTCHA is subject to the Google <a href="/Privacy" className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Privacy Policy</a> and <a href="/TermsOfUse" className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</p>
+               {(learnMoreVisibility)?<p className="payment-last-para" id="para" >The information collected by Google reCAPTCHA is subject to the Google <a onClick={()=>{Navigate('/Privacy')}} className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Privacy Policy</a> and <a onClick={()=>{Navigate('/TermsOfUse')}} className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</p>
                 :null}
             </div>
         </section>
