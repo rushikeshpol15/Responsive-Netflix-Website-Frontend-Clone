@@ -93,7 +93,7 @@ function JoinNowFiveOneSection(props)
                 </div>
 
                 <p className="payment-last-para">Any payment above ₹ 2000 shall need additional authentication.</p>
-                <p className="payment-last-para">By checking the checkbox below, you agree to our  <a href="/TermsOfUse" className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Terms of Use</a>, <a href="/Privacy" className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Privacy Statement</a>, and that you are over 18. Netflix will automatically continue your membership and charge the membership fee (currently ₹ 199/month) to your payment method until you cancel. You may cancel at any time to avoid future charges.</p>
+                <p className="payment-last-para">By checking the checkbox below, you agree to our  <a onClick={()=>{Navigate('/TermsOfUse')}} className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Terms of Use</a>, <a onClick={()=>{Navigate('/Privacy')}} className="text-decoration-none change-a-link fw-bold" style={{fontSize:"inherit"}}>Privacy Statement</a>, and that you are over 18. Netflix will automatically continue your membership and charge the membership fee (currently ₹ 199/month) to your payment method until you cancel. You may cancel at any time to avoid future charges.</p>
 
                 <div className="position-relative">
                     <input type="checkbox" id="agree" className="i-agree-checkbox"/>
