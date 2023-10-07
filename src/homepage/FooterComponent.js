@@ -96,7 +96,7 @@ function Footer()
                 <span >Questions? Call <a href="#" className="a"  >000-800-919-1694</a></span>
                 <div className="container g-0 my-5">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" >
-                        <div className="col"> <a onClick={()=>{Navigate(0);Navigate('/FAQ')}} className="a">FAQ</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/FAQ');Navigate(0)}} className="a">FAQ</a>  </div>
                         <div className="col"> <a onClick={()=>{Navigate('/HelpCenter')}} className="a">Help Center</a>  </div>
                         <div className="col"> <a  onClick={()=>{Navigate('/Account')}} className="a">Account</a>  </div>
                         <div className="col"> <a  onClick={()=>{Navigate('/MediaCenter')}} className="a">Media Center</a>  </div>
