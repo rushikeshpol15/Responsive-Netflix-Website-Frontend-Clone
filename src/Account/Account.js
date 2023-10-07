@@ -105,7 +105,7 @@ function Account(props)
 
                         <div className="mb-2">
                         <span className="New-to-Netflix">New to Netflix?</span>
-                        <a onClick={()=>{window.location.href('/JoinNowMain')}} className="text-decoration-none text-white d-inline-block sign-up">Sign up now.</a>
+                        <a onClick={()=>{window.location.assign('/JoinNowMain')}} className="text-decoration-none text-white d-inline-block sign-up">Sign up now.</a>
                         </div>
 
                         <span className="small pb-2" >This page is protected by Google reCAPTCHA to ensure you're not a bot.{(LEarnMoreVisibility)? <span  className="Account-learn-more-span"  onClick={()=>{setLearnMOreViSibility(false)}}>Learn more.</span>:null}</span>
