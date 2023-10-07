@@ -102,6 +102,7 @@
 }
 .subscrip-a-tag-hover:hover{
     text-decoration: underline !important;
+    cursor: pointer;
 }
 .subscription-next-btn {
     background-color: rgb(241, 17, 17);
