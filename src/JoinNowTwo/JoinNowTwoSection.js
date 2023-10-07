@@ -2,8 +2,12 @@ import "./JoinNowTwo.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck} from "@fortawesome/free-regular-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+
 function JoinNowTwoSection()
 {
+        let Navigate=useNavigate();
+
     return(
         <>
             <section className="join-now-two-section">
@@ -29,7 +33,7 @@ function JoinNowTwoSection()
                 <span style={{fontSize:"1.2em"}}>No ads and no extra fees. Ever.</span>
                 </div>
 
-                <a href="/JoinNowThree" className="join-now-two-section-last-btn text-decoration-none text-white py-3 mt-4 d-block  text-center" >Next</a>
+                <a onClick={()=>{Navigate('/JoinNowThree')}}  className="join-now-two-section-last-btn text-decoration-none text-white py-3 mt-4 d-block  text-center" >Next</a>
 
                 
 
