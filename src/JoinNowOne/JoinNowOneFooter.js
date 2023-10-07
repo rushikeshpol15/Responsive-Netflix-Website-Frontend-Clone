@@ -2,10 +2,14 @@ import SelectComponent from "../homepage/SelectComponent";
 import "./JoinNowOne.css";
 import nVSG from "../homepage/netflixSvg.svg";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 function JoinNowOneFooter()
 {
     let[checkSwitch,setCheckSwitch]=useState(false);
+    let Navigate=useNavigate();
+
 
     return(
         <>
@@ -95,14 +99,14 @@ function JoinNowOneFooter()
             </div>
 
             <div className="join-now-one-footer-link-cotainer">
-                         <a  href="/HelpCenter" className="join-now-one-footer-a join-now-one-link-hover">FAQ</a>  
-                         <a  href="/HelpCenter" className="join-now-one-footer-a join-now-one-link-hover">Help Center</a>  
-                         <a  href="/Account" className="join-now-one-footer-a join-now-one-link-hover">Netflix Shop</a>  
-                         <a  href="/TermsOfUse" className="join-now-one-footer-a join-now-one-link-hover">Terms of Use</a>  
+                           <a  onClick={()=>{Navigate('/FAQ')}} className="join-now-one-footer-a join-now-one-link-hover">FAQ</a>  
+                         <a  onClick={()=>{Navigate('/HelpCenter')}} className="join-now-one-footer-a join-now-one-link-hover">Help Center</a>  
+                         <a  onClick={()=>{Navigate('/FAQ')}} className="join-now-one-footer-a join-now-one-link-hover">Netflix Shop</a>  
+                         <a onClick={()=>{Navigate('/TermsOfUse')}} className="join-now-one-footer-a join-now-one-link-hover">Terms of Use</a>  
 
-                         <a  href="/Privacy" className="join-now-one-footer-a join-now-one-link-hover">Privacy</a>  
+                         <a  onClick={()=>{Navigate('/Privacy')}} className="join-now-one-footer-a join-now-one-link-hover">Privacy</a>  
                          <a  href="#staticBackdrop" data-bs-toggle="modal" className="join-now-one-footer-a join-now-one-link-hover">Cookie Preferences</a>  
-                         <a  href="/CorporateInformation" className="join-now-one-footer-a join-now-one-link-hover">Corporate Information</a>  
+                         <a  onClick={()=>{Navigate('/CorporateInformation')}} className="join-now-one-footer-a join-now-one-link-hover">Corporate Information</a>  
             </div>
             <SelectComponent/> 
             
