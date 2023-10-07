@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./JoinNowOne.css";
+import { useNavigate } from "react-router-dom";
+
 
 function JoinNowOneSection(props)
 {
@@ -8,6 +10,8 @@ function JoinNowOneSection(props)
     let[alreayReceivedEmail,setAlreadyReceivedEmail]=useState(false);
     let[Manualemail,setManualEmail]=useState("");
     let[ManualemailValidation,setManualEmailValidation]=useState(false);
+    let Navigate=useNavigate();
+
 
 
     function handleEmailVali(e)
@@ -26,6 +30,15 @@ function JoinNowOneSection(props)
 
 
     }
+
+     function handleJoinNowOneNext()
+    {
+        if(alreayReceivedEmail || ManualemailValidation)
+        {
+            Navigate('/JoinNowTwo');
+        }
+    }
+    
 
     useEffect(()=>{
         if(email.length>2)
@@ -54,10 +67,10 @@ function JoinNowOneSection(props)
                         <label htmlFor="join-now-one-section-password" className="join-now-one-section-password-span">Password</label>
                     </div>
 
-                    <a href="/ForgotPassword" className="text-decoration-none wq  join-now-one-link-hover" style={{color:"rgb(0, 119, 255)"}}>Forgot your password?</a> 
+                    <a onClick={()=>{Navigate('/ForgotPassword')}} className="text-decoration-none wq  join-now-one-link-hover" style={{color:"rgb(0, 119, 255)"}}>Forgot your password?</a> 
 
                     {/* <div className="join-now-one-section-last-btn-box"> */}
-                        <a href={(alreayReceivedEmail || ManualemailValidation)?"/JoinNowTwo":"#"} className="join-now-one-section-last-btn text-decoration-none text-white py-3 mt-4 d-block  text-center" >Next</a>
+                        <a onClick={()=>{handleJoinNowOneNext()}} className="join-now-one-section-last-btn text-decoration-none text-white py-3 mt-4 d-block  text-center" >Next</a>
 
                     {/* </div> */}
                 </div>
