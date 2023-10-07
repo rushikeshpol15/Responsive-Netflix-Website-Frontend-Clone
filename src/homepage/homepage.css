@@ -41,6 +41,7 @@
     border: transparent;
     font-size: 1.1em;
     font-weight: 750;
+    cursor: pointer;
 }
 .sign-in-button:hover{
     background: rgb(196, 13, 13);
