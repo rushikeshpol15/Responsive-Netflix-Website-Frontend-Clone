@@ -7,7 +7,7 @@ import { useEffect } from "react";
 function FAQ()
 {
      useEffect(()=>{
-        location.reload();
+        window.location.reload();
     })
     return(
         <>
