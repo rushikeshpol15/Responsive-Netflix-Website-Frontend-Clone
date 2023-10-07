@@ -105,7 +105,7 @@ function Account(props)
 
                         <div className="mb-2">
                         <span className="New-to-Netflix">New to Netflix?</span>
-                        <a onClick={()=>{window.location.assign('/JoinNowMain')}} className="text-decoration-none text-white d-inline-block sign-up">Sign up now.</a>
+                        <a onClick={()=>{NaviGate('/JoinNowMain')}} className="text-decoration-none text-white d-inline-block sign-up">Sign up now.</a>
                         </div>
 
                         <span className="small pb-2" >This page is protected by Google reCAPTCHA to ensure you're not a bot.{(LEarnMoreVisibility)? <span  className="Account-learn-more-span"  onClick={()=>{setLearnMOreViSibility(false)}}>Learn more.</span>:null}</span>
@@ -203,12 +203,12 @@ function Account(props)
             <span>Questions? Call <a href="#" className="text-decoration-none">000-800-919-1694</a></span>
             <br/>
                 <div className="Account-footer-row row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-                    <a href="/FAQ" className="col">FAQ</a>
-                    <a href="/HelpCenter" className="col">Help Center</a>
-                    <a href="/TermsOfUse" className="col">Terms of Use</a>
-                    <a href="/Privacy" className="col">Privacy</a>
+                    <a onClick={()=>{NaviGate('/FAQ')}}  className="col">FAQ</a>
+                    <a onClick={()=>{NaviGate('/HelpCenter')}}  className="col">Help Center</a>
+                    <a onClick={()=>{NaviGate('/TermsOfUse')}}  className="col">Terms of Use</a>
+                    <a onClick={()=>{NaviGate('/Privacy')}}  className="col">Privacy</a>
                     <a href="#staticBackdrop" data-bs-toggle="modal" className="col">Cookie Preferences</a>
-                    <a href="/CorporateInformation" className="col">Corporate Information</a>
+                    <a onClick={()=>{NaviGate('/CorporateInformation')}}  className="col">Corporate Information</a>
 
                 </div>
                 <SelectComponent/>
