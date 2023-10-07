@@ -223,7 +223,7 @@ function JoinNowThreeSection(props)
             </div>
 
             <p style={{fontSize:"0.84em",color:"grey",width:"95%"}}>
-            HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all resolutions. See our <a href="/TermsOfUse" className="text-decoration-none subscrip-a-tag-hover">Terms of Use</a> for more details.
+            HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all resolutions. See our <a  onClick={()=>{tonavigate('/TermsOfUse')}} className="text-decoration-none subscrip-a-tag-hover">Terms of Use</a> for more details.
             </p>
 
             <p style={{fontSize:"0.84em",color:"grey",width:"95%"}}>
