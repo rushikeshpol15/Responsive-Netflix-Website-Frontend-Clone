@@ -24,7 +24,7 @@ import JoinNowFour from './JoinNowFour/JoinNowFour';
 import JoinNowFiveOne from './JoinNowFiveOne/JoinNowFiveOne';
 import JoinNowFiveTwo from './JoinNowFiveTwo/JoinNowFiveTwo';
 import ForgotPassword from './ForgotPassword/ForgotPassword';
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 function App() {
