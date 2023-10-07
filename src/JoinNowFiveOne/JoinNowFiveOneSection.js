@@ -1,11 +1,13 @@
 import "./JoinNowFiveOne.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCreditCard ,faCircleQuestion} from "@fortawesome/free-regular-svg-icons";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate ,  useSearchParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 function JoinNowFiveOneSection(props)
 {
+        let Navigate=useNavigate();
+
     let[expireNumber,setExpireNumber]=useState("");
     let[expireMonthStatus,setexpireMonthStatus]=useState(false);
     let[learnMoreVisibility,setLearnMoreVisibility]=useState(false);
@@ -87,7 +89,7 @@ function JoinNowFiveOneSection(props)
                         <h6 className="fw-bold mb-0">₹ {props.price}/month</h6>
                         <span style={{color:"grey",marginTop:"0.1em"}}>{props.plan}</span>
                     </div>
-                    <a href="/JoinNowThree" className="text-decoration-none change-a-link fw-bold">Change</a>
+                    <a onClick={()=>{Navigate('/JoinNowThree')}} className="text-decoration-none change-a-link fw-bold">Change</a>
                 </div>
 
                 <p className="payment-last-para">Any payment above ₹ 2000 shall need additional authentication.</p>
