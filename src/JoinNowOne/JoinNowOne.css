@@ -20,6 +20,10 @@ cursor: pointer;
 .join-now-one-link-hover:hover{
     text-decoration: underline !important;
 }
+ .join-now-one-header-signIN{
+       cursor: pointer;
+}
+
 @media screen and (max-width:550px) {
     .Join-now-one-header{
         padding: 1em;
@@ -103,6 +107,8 @@ border: 1px solid grey;
     border-radius: 5px;
     background-color: rgb(224, 10, 10) ;
     transition:  background-color 0.4s;
+    cursor: pointer;
+
 }
 .join-now-one-section-last-btn:hover{
     background-color: rgb(245, 12, 12) ;
@@ -136,6 +142,8 @@ border: 1px solid grey;
     text-decoration: none;
     color: rgb(151, 151, 151) !important;
     font-size: 0.8em;
+    cursor: pointer;
+
 }
 @media screen and (max-width:740px) {
     .join-now-one-footer-link-cotainer{
