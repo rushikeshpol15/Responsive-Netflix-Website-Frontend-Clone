@@ -116,6 +116,10 @@ input:not(:placeholder-shown) + label
 .Account-learn-more-span:hover{
     text-decoration: underline;
 }
+.sign-up{
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width:1050px) {
@@ -178,6 +182,7 @@ input:not(:placeholder-shown) + label
  .Account-footer .Account-footer-container span,footer .Account-footer-container span a{
     color: rgb(168, 167, 167);
     font-weight: bold;
+    cursor: pointer;
 }
  .Account-footer .Account-footer-container span a:hover{
     text-decoration: underline !important;
@@ -186,6 +191,7 @@ input:not(:placeholder-shown) + label
     color: rgb(168, 167, 167);
     text-decoration: none;
     font-size: 0.8em;
+    cursor: pointer;
 }
  .Account-footer .Account-footer-row a:hover{
     text-decoration: underline;
