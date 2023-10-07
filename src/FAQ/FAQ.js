@@ -8,7 +8,7 @@ function FAQ()
 {
      useEffect(()=>{
         window.location.reload();
-    })
+    },[]);
     return(
         <>
         <HelpCenterNavbar search={false}/>
