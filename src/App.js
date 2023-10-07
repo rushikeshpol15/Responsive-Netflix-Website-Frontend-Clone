@@ -32,7 +32,7 @@ function App() {
    let currLocation=useLocation();
 
     useEffect(()=>{
-       window.scrollTo({top:0,behavior:"auto"});
+       window.scrollTo(0,0);
     },[currLocation]);
 
   let[subsriptionplan,setSubscriptionPlan]=useState("Basic");
