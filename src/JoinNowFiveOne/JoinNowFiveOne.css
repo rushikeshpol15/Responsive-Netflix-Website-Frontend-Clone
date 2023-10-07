@@ -99,6 +99,7 @@
 .change-a-link{
     color: rgb(53, 144, 219);
     font-size: 0.98em;
+    cursor: pointer;
 }
 .change-a-link:hover{
     text-decoration: underline !important;
