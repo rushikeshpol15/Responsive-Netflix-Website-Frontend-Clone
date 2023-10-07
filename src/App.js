@@ -25,7 +25,15 @@ import JoinNowFiveOne from './JoinNowFiveOne/JoinNowFiveOne';
 import JoinNowFiveTwo from './JoinNowFiveTwo/JoinNowFiveTwo';
 import ForgotPassword from './ForgotPassword/ForgotPassword';
 import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
+
 function App() {
+
+   let currLocation=useLocation();
+
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    },[currLocation]);
 
   let[subsriptionplan,setSubscriptionPlan]=useState("Basic");
   let[subsriptionplanPrice,setSubscriptionPlanPrice]=useState("199");
