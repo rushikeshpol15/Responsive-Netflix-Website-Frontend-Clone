@@ -7,9 +7,13 @@ import SelectComponent from './SelectComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import SignInInput from './SignInInputComponent';
+import { useNavigate } from 'react-router-dom';
+
 
 function Header(props)
 {
+        let Navigate=useNavigate();
+
     return(
         <>
         <header className='header pb-4'>
@@ -20,7 +24,7 @@ function Header(props)
 
             <div className='nav-last-div me-sm-5 d-inline-flex align-items-center  '>
             <SelectComponent/>
-            <a  href='/Account' className='sign-in-button ms-sm-4 ms-2 text-decoration-none '>Sign In</a>
+            <a onClick={()=>{Navigate('/Account')}}  className='sign-in-button ms-sm-4 ms-2 text-decoration-none '>Sign In</a>
             </div>
        
         </nav>
