@@ -7,11 +7,11 @@ import { useLocation } from "react-router-dom";
 
 function FAQ()
 {
-     let currLocation=useLocation();
+    //  let currLocation=useLocation();
 
-    useEffect(()=>{
-        window.scrollTo(0, 0);
-    },[currLocation]);
+    // useEffect(()=>{
+    //     window.scrollTo(0, 0);
+    // },[currLocation]);
      
     return(
         <>
