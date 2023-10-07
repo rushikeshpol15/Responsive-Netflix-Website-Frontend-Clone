@@ -96,24 +96,24 @@ function Footer()
                 <span >Questions? Call <a href="#" >000-800-919-1694</a></span>
                 <div className="container g-0 my-5">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" >
-                       <div className="col"> <a onClick={()=>{Navigate('/FAQ')}}>FAQ</a>  </div>
-                        <div className="col"> <a onClick={()=>{Navigate('/HelpCenter')}}>Help Center</a>  </div>
-                        <div className="col"> <a  onClick={()=>{Navigate('/Account')}}>Account</a>  </div>
-                        <div className="col"> <a  onClick={()=>{Navigate('/MediaCenter')}}>Media Center</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/FAQ')}} className="a">FAQ</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/HelpCenter')}} className="a">Help Center</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/Account')}} className="a">Account</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/MediaCenter')}} className="a">Media Center</a>  </div>
 
-                        <div className="col"> <a onClick={()=>{Navigate('/InvestorRelations')}}>Investor Relations</a>  </div>
-                        <div className="col"> <a  onClick={()=>{Navigate('/Jobs')}}>Jobs</a>  </div>
-                        <div className="col"> <a onClick={()=>{Navigate('/WayToWatch')}}>Way To Watch</a>  </div>
-                        <div className="col"> <a  onClick={()=>{Navigate('/TermsOfUse')}}>Terms of Use</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/InvestorRelations')}} className="a">Investor Relations</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/Jobs')}} className="a">Jobs</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/WayToWatch')}} className="a">Way To Watch</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/TermsOfUse')}} className="a">Terms of Use</a>  </div>
 
-                        <div className="col"> <a  onClick={()=>{Navigate('/Privacy')}}>Privacy</a>  </div>
-                        <div className="col"> <a  href="#staticBackdrop" data-bs-toggle="modal">Cookie Preferences</a>  </div>
-                        <div className="col"> <a onClick={()=>{Navigate('/CorporateInformation')}}>Corporate Information</a>  </div>
-                        <div className="col"> <a  onClick={()=>{Navigate('/ContactUs')}}>Contact Us</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/Privacy')}} className="a">Privacy</a>  </div>
+                        <div className="col"> <a  href="#staticBackdrop" data-bs-toggle="modal" className="a">Cookie Preferences</a>  </div>
+                        <div className="col"> <a onClick={()=>{Navigate('/CorporateInformation')}} className="a">Corporate Information</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/ContactUs')}} className="a">Contact Us</a>  </div>
 
-                        <div className="col"> <a  href="#">Speed Test</a>  </div>
-                        <div className="col"> <a  onClick={()=>{Navigate('/LegalNotices')}}>Legal Notices</a>  </div>
-                        <div className="col"> <a  onClick={()=>{Navigate('/OnlyOnNetflix')}}>Only on Netflix</a>  </div>
+                        <div className="col"> <a  href="#" className="a">Speed Test</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/LegalNotice')}} className="a">Legal Notices</a>  </div>
+                        <div className="col"> <a  onClick={()=>{Navigate('/OnlyOnNetflix')}} className="a">Only on Netflix</a>  </div>
 
                     </div>
                 </div>
