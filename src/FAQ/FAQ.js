@@ -6,9 +6,11 @@ import { useEffect } from "react";
 
 function FAQ()
 {
-     setTimeout(()=>{
-        window.location.reload();
-    },10);
+     useEffect(()=>{
+        setTimeout(()=>{
+            window.location.reload();
+        },10);
+    },[]);
      
     return(
         <>
