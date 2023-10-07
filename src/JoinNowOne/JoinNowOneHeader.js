@@ -15,11 +15,23 @@ function JoinNowOneHeader(props)
     })
 
     let Navigate=useNavigate();
+    
+    function handleSignInOrSignOut()
+    {
+        if(NavigateToAccount)
+        {
+            Navigate('/Account');
+        }
+        else{
+            Navigate('/');
+        }
+    }
+    
     return(
         <>
         <header className="Join-now-one-header">
             <img src={netflixSVG} alt="img" className="join-now-one-netflix-svg" onClick={()=>{Navigate('/')}}/>
-            <a href={(NavigateToAccount)?"/Account":"/"} className="join-now-one-header-signIN text-decoration-none text-dark fw-bold join-now-link-hover" title="sign in to netflix account" style={{fontSize:"1.15em"}}>
+            <a  onClick={()=>{handleSignInOrSignOut()}} className="join-now-one-header-signIN text-decoration-none text-dark fw-bold join-now-link-hover" title="sign in to netflix account" style={{fontSize:"1.15em"}}>
                 {props.SignInOrOut}</a>
         </header>
         </>
