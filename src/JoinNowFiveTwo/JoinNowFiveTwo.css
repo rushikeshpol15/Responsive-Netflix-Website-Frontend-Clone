@@ -95,6 +95,7 @@
 }
 .how-do-i-find-link{
     color: rgb(21, 141, 221);
+    cursor: pointer;
 }
 .how-do-i-find-link:hover{
     text-decoration: underline !important;
