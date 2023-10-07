@@ -75,7 +75,7 @@ function JoinNowFiveTwoSection()
                         <label htmlFor="upiNumber" className="upi-input-label">UPI ID</label>
                     </div>
 
-                    <a  href="#" className="how-do-i-find-link text-decoration-none">How do I find my UPI ID?</a>
+                    <a  className="how-do-i-find-link text-decoration-none">How do I find my UPI ID?</a>
 
                     <button className="join-five-two-next-btn text-white">Next</button>
                 </div>
