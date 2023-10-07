@@ -218,6 +218,7 @@
 }
 .footer-container a{
     font-weight: 500;
+    cursor: pointer;
 }
 .col{
     margin-bottom: 20px;
