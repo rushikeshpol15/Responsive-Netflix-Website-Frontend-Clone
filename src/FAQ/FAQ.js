@@ -2,18 +2,16 @@ import HelpCenterFooter from "../HelpCenter/HelpCenterFooter";
 import HelpCenterNavbar from "../HelpCenter/HelpCenterNavbar";
 import FAQSection from "./FAQSection";
 import { useEffect , useState } from "react";
+import { useLocation } from "react-router-dom";
 
 
 function FAQ()
 {
-     let[first,setFirst]=useState(0);
-    
+     let currLocation=useLocation();
+
     useEffect(()=>{
-      let timer= setTimeout(()=>{
-            window.location.reload();
-        },10);
-        return (clearTimeout(timer));
-    },[first]);
+        window.scrollTo(0, 0);
+    },[currLocation]);
      
     return(
         <>
