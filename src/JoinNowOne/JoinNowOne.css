@@ -19,6 +19,7 @@ cursor: pointer;
 
 .join-now-one-link-hover:hover{
     text-decoration: underline !important;
+    cursor: pointer;
 }
  .join-now-one-header-signIN{
        cursor: pointer;
