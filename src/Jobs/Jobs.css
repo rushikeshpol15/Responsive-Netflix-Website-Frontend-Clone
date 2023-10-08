@@ -49,6 +49,7 @@
 }
 .nav-sidebar-links:hover{
 color: red !important;
+cursor: pointer;
 }
 .Jobs-netflixSVG{
     width: 150px;
@@ -56,6 +57,7 @@ color: red !important;
 .a-Jobs{
     font-size: 1.05em;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 .nav-sidebar-elements{
     display: flex;
