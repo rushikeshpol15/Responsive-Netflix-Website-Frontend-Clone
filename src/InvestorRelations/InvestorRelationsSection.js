@@ -19,7 +19,7 @@ function InvestorRelationsSection()
                     <div className="investor-relations-section-one-card shadow i-r-s-one">
                         
                         <div className="mb-2">
-                            <a href="#" style={{fontSize:"1.5em"}} className="inv-sec-one-anch-tag text-decoration-none text-dark HOVER_RED investor-list-anchorTag">
+                            <a  style={{fontSize:"1.5em"}} className="inv-sec-one-anch-tag text-decoration-none text-dark HOVER_RED investor-list-anchorTag">
                             Netflix CFO to Present at the BofA Media, Communications & Entertainment Conference
                             </a>
                         </div>
@@ -30,7 +30,7 @@ function InvestorRelationsSection()
                         </div>
 
                         <div className="mt-4 mb-2">
-                            <a href="#" style={{fontSize:"1.5em"}} className="inv-sec-one-anch-tag text-decoration-none text-dark HOVER_RED  investor-list-anchorTag">
+                            <a  style={{fontSize:"1.5em"}} className="inv-sec-one-anch-tag text-decoration-none text-dark HOVER_RED  investor-list-anchorTag">
                             Netflix co-CEO to Present at the Goldman Sachs Communacopia + Technology Conference
                             </a>
                         </div>
@@ -46,7 +46,7 @@ function InvestorRelationsSection()
                                 Transcript
                             </div>
                         </div>
-                        <a href="#" style={{color:"rgb(202, 11, 11)",fontSize:"1.15em"}} className="text-decoration-none fw-bold">All Events &gt;</a>
+                        <a  style={{color:"rgb(202, 11, 11)",fontSize:"1.15em"}} className="text-decoration-none fw-bold">All Events &gt;</a>
 
 
                     </div>
@@ -60,31 +60,31 @@ function InvestorRelationsSection()
                         <ul className="list-group list-group-flush">
 
                             <li className="list-group-item investor-list-padding">
-                                <a href="#"  className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Long Term View</a>
+                                <a   className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Long Term View</a>
                             </li>
 
                             <li className="list-group-item investor-list-padding">
-                            <a href="#"  className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Top Investor Questions</a>
+                            <a   className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Top Investor Questions</a>
                             </li>
 
                             <li className="list-group-item investor-list-padding">
-                                <a href="#" className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Content Accounting Overview</a>
+                                <a  className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Content Accounting Overview</a>
                             </li>
 
                             <li className="list-group-item investor-list-padding">
-                                <a href="#" className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark " style={{fontSize:"1.5em"}}>Netflix Culture</a>
+                                <a  className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark " style={{fontSize:"1.5em"}}>Netflix Culture</a>
                             </li>
 
                             <li className="list-group-item investor-list-padding">
-                                <a href="#" className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Netflix Approach to Corporate Governance</a>
+                                <a  className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Netflix Approach to Corporate Governance</a>
                             </li>
 
                             <li className="list-group-item investor-list-padding">
-                                <a href="#" className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Netflix ESG Information</a>
+                                <a  className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>Netflix ESG Information</a>
                             </li>
 
                             <li className="list-group-item investor-list-padding">
-                                <a href="#" className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>WeAreNetflix Podcast</a>
+                                <a  className="inv-sec-one-anch-tag fw-bold HOVER_RED investor-list-anchorTag text-decoration-none text-dark" style={{fontSize:"1.5em"}}>WeAreNetflix Podcast</a>
                             </li>
                             {/* <hr/> */}
                             <li></li>
@@ -105,24 +105,24 @@ function InvestorRelationsSection()
 
                     <div className="three-card-grid-container">
                         <div className="shadow i-r-s-one pt-5 pb-3 px-4 d-inline-flex flex-column bg-white" style={{gap:"0.5em"}}>
-                            <a href="#" className="text-decoration-none inv-sec-one-anch-tag " style={{color:"red",fontSize:"1.5em"}}>Netflix to Announce Third Quarter 2023 Financial Results</a>
+                            <a  className="text-decoration-none inv-sec-one-anch-tag " style={{color:"red",fontSize:"1.5em"}}>Netflix to Announce Third Quarter 2023 Financial Results</a>
                             <span className="fw-bold fo-aw-smal-txt" >Sep 15, 2023</span>
                         </div>
 
                         <div className="shadow i-r-s-one pt-5 pb-3 px-4 bg-white  d-inline-flex flex-column" style={{gap:"0.5em"}}>
-                            <a href="#" className="text-decoration-none inv-sec-one-anch-tag " style={{color:"red",fontSize:"1.5em"}}>Netflix Reappoints Ambassador Susan E. Rice to its Board of Directors</a>
+                            <a className="text-decoration-none inv-sec-one-anch-tag " style={{color:"red",fontSize:"1.5em"}}>Netflix Reappoints Ambassador Susan E. Rice to its Board of Directors</a>
                             <span className="fw-bold fo-aw-smal-txt ">Sep 8, 2023</span>
                         </div>
 
                         <div className="shadow i-r-s-one pt-5 pb-3 px-4 bg-white d-inline-flex flex-column" style={{gap:"0.5m"}}>
-                            <a href="#" className="text-decoration-none inv-sec-one-anch-tag " style={{color:"red",fontSize:"1.5em"}}>Netflix CFO to Present at the BofA Media, Communications & Entertainment Conference</a>
+                            <a  className="text-decoration-none inv-sec-one-anch-tag " style={{color:"red",fontSize:"1.5em"}}>Netflix CFO to Present at the BofA Media, Communications & Entertainment Conference</a>
                             <span className="fw-bold fo-aw-smal-txt ">Sep 6, 2023</span>
                         </div>
 
                     </div>
 
                     <div className="text-center" style={{marginTop:"3em"}}>
-                    <a href="#" className="investor-three-card-all-release-btn">ALL RELEASES &nbsp; &gt;</a>
+                    <a  className="investor-three-card-all-release-btn">ALL RELEASES &nbsp; &gt;</a>
                     </div>
                    
 
@@ -157,7 +157,7 @@ function InvestorRelationsSection()
                 </div>
                 
                 <div className="text-center" style={{marginTop:"2em",marginBottom:"2em"}}>
-                    <a href="#" className="investor-three-card-all-release-btn">ALL QUARTERS &nbsp; &gt;</a>
+                    <a  className="investor-three-card-all-release-btn">ALL QUARTERS &nbsp; &gt;</a>
                 </div>
 
             </div>
