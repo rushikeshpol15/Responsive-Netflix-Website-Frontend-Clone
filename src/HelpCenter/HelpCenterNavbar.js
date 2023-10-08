@@ -14,8 +14,8 @@ function HelpCenterNavbar(props)
         <img src={NetflixSvg} className="netflix-svg" onClick={()=>{nav('/')}}/>
 
         <div className="Help-navbar-signIn-div ">
-            <a href="/JoinNowMain" className="btn text-white a-btn ">Join Netflix</a>
-            <a href="Account" className="btn text-white a-signIn-btn ">Sign In</a>
+            <a onClick={()=>{nav('/JoinNowMain')}} className="btn text-white a-btn ">Join Netflix</a>
+            <a onClick={()=>{nav('/Account')}} className="btn text-white a-signIn-btn ">Sign In</a>
         </div>
 
         </nav>
