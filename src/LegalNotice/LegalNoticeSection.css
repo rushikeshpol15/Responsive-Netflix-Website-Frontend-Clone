@@ -22,6 +22,7 @@
 
 p a:hover{
 text-decoration: underline !important;
+cursor: pointer;
 }
 
 @media screen and (max-width:600px) {
