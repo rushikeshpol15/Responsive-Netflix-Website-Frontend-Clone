@@ -201,7 +201,7 @@ function MediaCenterSection()
 
                 </div>
                 <div className="mt-5 text-center">
-                    <a href="#" className="november-titles">Show November titles</a>
+                    <a  className="november-titles">Show November titles</a>
                     </div>
             </div>
 
@@ -267,7 +267,7 @@ function MediaCenterSection()
                 </div>
 
                      <div className="mt-5 text-center">
-                    <a href="#" className="november-titles">Show November titles</a>
+                    <a  className="november-titles">Show November titles</a>
                     </div>
             </div>
 
@@ -301,7 +301,7 @@ function MediaCenterSection()
 
             </div>
                 <div className="mt-5 text-center">
-                    <a href="#" className="november-titles">Show November titles</a>
+                    <a  className="november-titles">Show November titles</a>
                 </div>
 
             </div>
@@ -320,7 +320,7 @@ function MediaCenterSection()
                     </div>
              </div>
                 <div className="mt-5 text-center">
-                    <a href="#" className="november-titles">Show November titles</a>
+                    <a  className="november-titles">Show November titles</a>
                 </div>
         </div>
         
@@ -351,14 +351,14 @@ function MediaCenterSection()
                         <div className="news-images news-img-2">
                                 <span className="text-white" style={{fontSize:".8em"}}>South Korea (Republic of Korea), Global</span>
                                 <h4 className="text-white mt-2 mb-4 fw-bold">‘Doona!’ Set to Ignite Hearts Worldwide on October 20</h4>
-                                 <a href="#" className="november-titles">Read more</a>
+                                 <a  className="november-titles">Read more</a>
                             </div>
                     </div>    
 
             </div>
 
                 <div className="mt-5 text-center">
-                    <a href="#" className="november-titles">Read more news in the Newsroom</a>
+                    <a  className="november-titles">Read more news in the Newsroom</a>
                 </div>
 
         </div>
@@ -368,7 +368,7 @@ function MediaCenterSection()
             <h3 className=" mt-4 fw-bold text-end" style={{color:"lightgrey"}}>Looking for company assets?</h3>
             <h5 className=" mt-4 text-end" style={{color:"lightgrey"}}>Get more images and information about Netflix on our company site.</h5>
             <div className="text-end" style={{marginTop:"2.3em"}}>
-                    <a href="#" className="november-titles">Go to About Netflix</a>
+                    <a  className="november-titles">Go to About Netflix</a>
                 </div>
 
         </div>
