@@ -33,7 +33,7 @@ function LegalNoticeSection(){
             <br/>
 
               <p> <strong>Patents</strong> <br/>
-              Netflix streaming and DVD services are covered by patents. For information on patents related to our services please visit <a href="#" className="text-danger text-decoration-none">www.netflix.com/patents.</a>
+              Netflix streaming and DVD services are covered by patents. For information on patents related to our services please visit <a  className="text-danger text-decoration-none">www.netflix.com/patents.</a>
             </p>
 
             <br/>
