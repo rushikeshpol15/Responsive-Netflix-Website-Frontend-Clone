@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import TermsOfUseSectionPrint from "../TermsOfUse/TermsOfUseSectionPrint";
 import "./Privacy.css";
 
 function PrivacySection()
 {
+  let Navigate=useNavigate();
+
     return(
         <>
         <section className="Privacy-section">
@@ -13,11 +16,11 @@ function PrivacySection()
             <h5 className="fw-bold">Contacting Us</h5>
             <br/>
             <p>
-            If you have general questions about your account or how to contact customer service for assistance, please visit our online help center at <a href="#" className="text-danger text-decoration-none">help.netflix.com.</a> For questions specifically about this Privacy Statement, or our use of your personal information, cookies or similar technologies, please contact our Data Protection Officer/Privacy Office by email at <a href="#" className="text-danger text-decoration-none">privacy@netflix.com.</a>
+            If you have general questions about your account or how to contact customer service for assistance, please visit our online help center at <a onClick={()=>{Navigate('/HelpCenter')}} className="text-danger text-decoration-none">help.netflix.com.</a> For questions specifically about this Privacy Statement, or our use of your personal information, cookies or similar technologies, please contact our Data Protection Officer/Privacy Office by email at <a href="mailto:privacy@netflix.com." className="text-danger text-decoration-none">privacy@netflix.com.</a>
             </p>
             <br/>
             <p>
-            The data controller of your personal information is <a href="#" className="text-danger text-decoration-none">Netflix Entertainment Services India LLP</a>. Please note that if you contact us to assist you, for your safety and ours we may need to authenticate your identity before fulfilling your request.
+            The data controller of your personal information is <a  className="text-danger text-decoration-none">Netflix Entertainment Services India LLP</a>. Please note that if you contact us to assist you, for your safety and ours we may need to authenticate your identity before fulfilling your request.
             </p>
             <br/> <br/>
 
@@ -87,7 +90,7 @@ function PrivacySection()
         <li>communicate with you concerning our service so that we can send you news about Netflix, details about new features and content available on Netflix, special offers, promotional announcements, consumer surveys, and to assist you with operational requests such as password reset requests. These communications may be by various methods, such as email, push notifications, text message, online messaging channels, and matched identifier communications (described below). Please see the "Your Choices" section of this Privacy Statement to learn how to set or change your communications preferences.</li>
        </ul>
 
-       <p>Our content recommendations system strives to predict what you will be in the mood to watch when you log in. However, our content recommendations system does not infer or attach socio-demographic information (like gender or race) to you. We have a Help article that explains how our content recommendations system works - spoilers: the biggest driver of these recommendations is what you actually choose to watch through our service. You can read the article at <a href="#" className="text-decoration-none text-danger">netflix.com/recommendations.</a></p>
+       <p>Our content recommendations system strives to predict what you will be in the mood to watch when you log in. However, our content recommendations system does not infer or attach socio-demographic information (like gender or race) to you. We have a Help article that explains how our content recommendations system works - spoilers: the biggest driver of these recommendations is what you actually choose to watch through our service. You can read the article at <a onClick={()=>{Navigate('/MediaCenter')}} className="text-decoration-none text-danger">netflix.com/recommendations.</a></p>
 
         <h6 className="fw-bold mb-3">Disclosure of Information</h6>
 
@@ -95,7 +98,7 @@ function PrivacySection()
         <br/>
         <ul>
           <li><span className="fw-bold">The Netflix family of companies: </span>
-          We share your information among the Netflix family of companies (<a href="#" className="text-danger text-decoration-none">help.netflix.com/legal/corpinfo</a>) as needed for: providing you with access to our services; providing customer support; making decisions about service improvements; content development; and for other purposes described in the Use of Information section of this Privacy Statement.
+          We share your information among the Netflix family of companies (<a  className="text-danger text-decoration-none">help.netflix.com/legal/corpinfo</a>) as needed for: providing you with access to our services; providing customer support; making decisions about service improvements; content development; and for other purposes described in the Use of Information section of this Privacy Statement.
           </li>
 
           <li> <span className="fw-bold">Service Providers: </span>
@@ -127,7 +130,7 @@ function PrivacySection()
         </ul>
 
         <p>
-        Whenever in the course of sharing information we transfer personal information to other countries we will ensure that the information is transferred in accordance with this Privacy Statement and as permitted by the applicable laws on data protection. You can find out more about how we disclose and transfer your personal information internationally at this link: <a href="#" className="text-danger text-decoration-none">help.netflix.com/legal/personal-information-international-transfers.</a> 
+        Whenever in the course of sharing information we transfer personal information to other countries we will ensure that the information is transferred in accordance with this Privacy Statement and as permitted by the applicable laws on data protection. You can find out more about how we disclose and transfer your personal information internationally at this link: <a  className="text-danger text-decoration-none">help.netflix.com/legal/personal-information-international-transfers.</a> 
         </p>
         <p>You may also choose to disclose your information in the following ways:</p>
 
@@ -151,11 +154,11 @@ function PrivacySection()
         </li>
 
         <li><span className="fw-bold">Profiles: </span>
-        Profiles allow users to have a distinct, personalized Netflix experience, built around the movies and shows of interest to them, as well as separate watch histories. Please note that profiles are available to everyone who uses your Netflix account, so that anyone with access to your Netflix account can navigate to and use, edit or delete profiles. You should explain this to others with access to your account, and if you do not wish them to use or change your profile, be sure to let them know. Profile users may be offered the opportunity to add an email address, phone number or other information to the profile and will be provided with notice of collection and use at the time such information is requested (the Profile Privacy Notice applies (<a href="#" className="text-danger text-decoration-none">help.netflix.com/legal/profileprivacy</a>)). We have various parental controls available, you can learn more by reading our Help article located at <a href="#" className="text-danger text-decoration-none">help.netflix.com/node/264.</a>
+        Profiles allow users to have a distinct, personalized Netflix experience, built around the movies and shows of interest to them, as well as separate watch histories. Please note that profiles are available to everyone who uses your Netflix account, so that anyone with access to your Netflix account can navigate to and use, edit or delete profiles. You should explain this to others with access to your account, and if you do not wish them to use or change your profile, be sure to let them know. Profile users may be offered the opportunity to add an email address, phone number or other information to the profile and will be provided with notice of collection and use at the time such information is requested (the Profile Privacy Notice applies (<a  className="text-danger text-decoration-none">help.netflix.com/legal/profileprivacy</a>)). We have various parental controls available, you can learn more by reading our Help article located at <a  className="text-danger text-decoration-none">help.netflix.com/node/264.</a>
         </li>
 
         <li><span className="fw-bold">Profile Transfers:</span>
-        The profile transfer feature on your account allows you and users with access to your account to transfer an eligible profile from your account to a separate account (including information such as viewing history and recommendations). You can change the setting for this feature in the Settings section of your Account page. You can learn more by reading our Help article located at <a href="#" className="text-danger text-decoration-none"> help.netflix.com/node/122698.</a>
+        The profile transfer feature on your account allows you and users with access to your account to transfer an eligible profile from your account to a separate account (including information such as viewing history and recommendations). You can change the setting for this feature in the Settings section of your Account page. You can learn more by reading our Help article located at <a  className="text-danger text-decoration-none"> help.netflix.com/node/122698.</a>
         </li>
 
         <li><span className="fw-bold">Removing device access to your Netflix account: </span>
@@ -244,15 +247,15 @@ function PrivacySection()
        </p>
 
        <p>
-       If you are the account owner, to download a copy of your personal information go to: <a href="#"  className="text-danger text-decoration-none">netflix.com/account/getmyinfo</a> (you must be signed in to access the "Account" section), and follow the instructions.
+       If you are the account owner, to download a copy of your personal information go to: <a onClick={()=>{Navigate('/Account')}}  className="text-danger text-decoration-none">netflix.com/account/getmyinfo</a> (you must be signed in to access the "Account" section), and follow the instructions.
        </p>
 
       <p>
-      For other requests, or if you have a question regarding our privacy practices, please contact our Data Protection Officer/Privacy Office at <a href="#"  className="text-danger text-decoration-none">privacy@netflix.com.</a> For more information about how to access your information, including our verification process, please reference this help article: <a href="#" className="text-danger text-decoration-none"> help.netflix.com/node/100624</a>. We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws. Please also see the "Your Choices" section of this Privacy Statement for additional choices regarding your information.
+      For other requests, or if you have a question regarding our privacy practices, please contact our Data Protection Officer/Privacy Office at <a href="mailto:privacy@netflix.com"  className="text-danger text-decoration-none">privacy@netflix.com.</a> For more information about how to access your information, including our verification process, please reference this help article: <a  className="text-danger text-decoration-none"> help.netflix.com/node/100624</a>. We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws. Please also see the "Your Choices" section of this Privacy Statement for additional choices regarding your information.
       </p>
 
       <p>
-      Retention of information: We may retain information as required or permitted by applicable laws and regulations, including to honor your choices, for our billing or records purposes and to fulfill the purposes described in this Privacy Statement. Specifically, we retain information for our legitimate interests and essential business purposes, such as operating, maintaining and improving our services; complying with our legal obligations; and exercising our legal rights and remedies, including enforcing our terms of use. Our retention of information is based on many factors such as your relationship with Netflix (for example, are you a Netflix current member); the nature of the information; compliance with our legal obligations; defending or resolving actual or anticipated legal claims. We take reasonable measures to destroy or de-identify personal information in a secure manner when it is no longer required. For information about deletion, removal and retention of information, please reference this help article: <a href="#" className="text-danger text-decoration-none">help.netflix.com/node/100625</a>.
+      Retention of information: We may retain information as required or permitted by applicable laws and regulations, including to honor your choices, for our billing or records purposes and to fulfill the purposes described in this Privacy Statement. Specifically, we retain information for our legitimate interests and essential business purposes, such as operating, maintaining and improving our services; complying with our legal obligations; and exercising our legal rights and remedies, including enforcing our terms of use. Our retention of information is based on many factors such as your relationship with Netflix (for example, are you a Netflix current member); the nature of the information; compliance with our legal obligations; defending or resolving actual or anticipated legal claims. We take reasonable measures to destroy or de-identify personal information in a secure manner when it is no longer required. For information about deletion, removal and retention of information, please reference this help article: <a  className="text-danger text-decoration-none">help.netflix.com/node/100625</a>.
       </p>
       <br/>
 
@@ -277,7 +280,7 @@ function PrivacySection()
       <p>
       We will update this Privacy Statement from time to time in response to changing legal, regulatory or operational requirements. We will provide notice of any such changes (including when they will take effect) in accordance with law. Your continued use of the Netflix service after any such updates take effect will constitute acknowledgement and (as applicable) acceptance of those changes. If you do not wish to acknowledge or accept any updates to this Privacy Statement, you may cancel your use of the Netflix service. To see when this Privacy Statement was last updated, please see the "Last Updated" section below.
       <br/>
-      To see the prior version of this document, please go to <a href="#" className="text-danger text-decoration-none">netflix.com/privacyupdates</a>.
+      To see the prior version of this document, please go to <a  className="text-danger text-decoration-none">netflix.com/privacyupdates</a>.
       </p>
 
       <p>    <strong>Last Updated: </strong>November 1, 2022  </p>
