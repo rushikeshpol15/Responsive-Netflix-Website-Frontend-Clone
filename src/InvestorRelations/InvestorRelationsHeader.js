@@ -57,52 +57,52 @@ function InvestorRelationsHeader()
               
                 <div className="inv-acc-q-one dropdown-toggle accor-hvr"  onMouseOver={()=>{handleHover(1)}} onClick={()=>{handleAccordionNumber(1)}}>OVERVIEW</div>
               { (accordionNumber==1)?<div className="inv-acc-ans-one" >
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Profile</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Long-Term View</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Top Investor Questions</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Content Accounting Overview</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Netflix Culture</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">About Netflix</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Profile</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Long-Term View</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Top Investor Questions</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Content Accounting Overview</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Netflix Culture</a>
+                <a  className="accor-hvr text-decoration-none text-dark">About Netflix</a>
                 </div>:null}
 
                 <div className="inv-acc-q-two dropdown-toggle accor-hvr"  onMouseOver={()=>{handleHover(2)}} onClick={()=>{handleAccordionNumber(2)}}>FINANCIALS</div>
                {(accordionNumber==2)? <div className="inv-acc-ans-two">
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Quarterly Earnings</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Financial Statements</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Annual Reports & Proxies</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">SEC Filings</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Quarterly Earnings</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Financial Statements</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Annual Reports & Proxies</a>
+                <a  className="accor-hvr text-decoration-none text-dark">SEC Filings</a>
                 </div>:null}
 
                 <div className="inv-acc-q-three dropdown-toggle accor-hvr"  onMouseOver={()=>{handleHover(3)}} onClick={()=>{handleAccordionNumber(3)}}>NEWS & EVENTS</div>
                { (accordionNumber==3)?<div className="inv-acc-ans-three">
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Financial Releases</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Investor Events</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Financial Releases</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Investor Events</a>
                 </div>:null}
 
                 <div className="inv-acc-q-four dropdown-toggle accor-hvr"  onMouseOver={()=>{handleHover(4)}} onClick={()=>{handleAccordionNumber(4)}}>STOCK INFO</div>
                { (accordionNumber==4) ? <div className="inv-acc-ans-four">
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Stock Quote</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Stock Chart</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Historical Stock Quote</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Investment Calculator</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Stock Quote</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Stock Chart</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Historical Stock Quote</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Investment Calculator</a>
                 </div>:null}
 
                 <div className="inv-acc-q-five dropdown-toggle accor-hvr"  onMouseOver={()=>{handleHover(5)}} onClick={()=>{handleAccordionNumber(5)}}>Environmental, Social & Governance</div>
               { (accordionNumber==5)? <div className="inv-acc-ans-five">  
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Leadership & Directors</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">ESG Information</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Governance Docs</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Committee Membership</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Leadership & Directors</a>
+                <a  className="accor-hvr text-decoration-none text-dark">ESG Information</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Governance Docs</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Committee Membership</a>
                 </div>:null}
 
                 <div className="inv-acc-q-six dropdown-toggle accor-hvr"  onMouseOver={()=>{handleHover(6)}} onClick={()=>{handleAccordionNumber(6)}}>RESOURCES</div>
               { (accordionNumber==6)? <div className="inv-acc-ans-six">  
-                <a href="#" className="accor-hvr text-decoration-none text-dark"> Newsroom</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Email Alerts</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Investor Contacts</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark">Social Media Disclosure</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark"> EEO-1 Reports</a>
-                <a href="#" className="accor-hvr text-decoration-none text-dark"> Political Activity Disclosures</a>
+                <a  className="accor-hvr text-decoration-none text-dark"> Newsroom</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Email Alerts</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Investor Contacts</a>
+                <a  className="accor-hvr text-decoration-none text-dark">Social Media Disclosure</a>
+                <a  className="accor-hvr text-decoration-none text-dark"> EEO-1 Reports</a>
+                <a  className="accor-hvr text-decoration-none text-dark"> Political Activity Disclosures</a>
                 </div>:null}
 
 
