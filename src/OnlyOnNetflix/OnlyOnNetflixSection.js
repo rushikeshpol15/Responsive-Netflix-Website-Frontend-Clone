@@ -7,9 +7,15 @@ import ActionMovies from "./ActionMovies";
 import Documentaries from "./Documentories";
 import ComedyMovies from "./ComdeyMovies";
 import CrimeTvShows from "./CrimeTVShows";
+import { useNavigate } from "react-router-dom";
+
+
 
 function OnlyOnNetflixSection()
 {
+        let NaviGate=useNavigate();
+
+    
     return(
         <>
         <section className="only-on-netflix-section">
@@ -36,7 +42,7 @@ function OnlyOnNetflixSection()
                 <h1 className="text-white text-center only-on-section-bottom-h1 mb-4 fw-bold">There’s even more to watch.</h1>
                 <h4 className="text-white text-center only-on-section-bottom-h4 ">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals and more. Watch as much as you want, anytime you want.</h4>
                 <div className="only-section-bottom-join-now-container text-center mt-5">
-                    <a href="/JoinNowMain" className="Only-on-JoinNow-box text-white text-decoration-none only-on-section-bottom-joinNow" style={{fontSize:"1.3em"}}>JOIN NOW</a>
+                    <a onClick={()=>{NaviGate('/JoinNowMain')}}  className="Only-on-JoinNow-box text-white text-decoration-none only-on-section-bottom-joinNow" style={{fontSize:"1.3em",cursor:"pointer"}}>JOIN NOW</a>
                 </div>
 
               </div>
