@@ -56,7 +56,7 @@ function Account(props)
     {
         if(Validation)
         {
-            NaviGate('/JoinNowOne');
+            NaviGate('/JoinNowTwo');
         }
     }
    
