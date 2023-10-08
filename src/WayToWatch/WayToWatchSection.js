@@ -63,13 +63,13 @@ function WayToWatchSection()
                         <p className="mt-4 text-white" style={{fontSize:"0.9em"}}>The newest generation of media players and streaming sticks offer a fast, easy, and affordable way to watch Netflix on your TV.</p>
                         </div>
                         <div className="tab-content-platform-one-container">
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/media_players/appletv_rev.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/uploads/g-chromecast.png" alt="img" className="img-fluid" width={"47%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/uploads/portal-from-facebook.png" alt="img" className="img-fluid" width={"45%"}/>
                             
                             </a>
@@ -87,36 +87,36 @@ function WayToWatchSection()
                         <div className="my-5 ">
                             <img src="https://devices.netflix.com/images/nrtv-ja.png" className="platform-smart-tv-img img-fluid"/>
                             <p className="mt-4 text-white" style={{fontSize:"0.9em"}}>Want a smart TV that’s built for a great Netflix experience? Look for smart TVs with the Netflix Recommended TV logo.</p>
-                            <a href="#" className="py-2 px-4  platfrom-a-img-hover text-decoration-none fw-bold" style={{fontSize:"0.7em",border:"2px solid red",color:"red" ,borderRadius:"3px"}}>LEARN MORE ▸</a>
+                            <a  className="py-2 px-4  platfrom-a-img-hover text-decoration-none fw-bold" style={{fontSize:"0.7em",border:"2px solid red",color:"red" ,borderRadius:"3px"}}>LEARN MORE ▸</a>
                         </div>
                     </div>
 
                     <div className="tab-content-platform-one-container">
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/hdtvs/hisenselogo.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/hdtvs/lg-logo-3d-tagline-white.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src="	https://devices.netflix.com/images/hdtvs/panasonic_logo_bl_posi_png.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src="	https://devices.netflix.com/images/hdtvs/philips_transparent_logo.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src="	https://devices.netflix.com/images/hdtvs/samsung_lettermark_white_rgb.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src="	https://devices.netflix.com/images/hdtvs/sharp-light.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src=" https://devices.netflix.com/images/hdtvs/sony-light.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"70px",backgroundColor:"black"}}>
                                 <img src=" https://devices.netflix.com/images/hdtvs/toshiba.png" alt="img" className="img-fluid" width={"50%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"90px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{minHeight:"90px",backgroundColor:"black"}}>
                                 <img src="	https://devices.netflix.com/uploads/1024px-xiaomi-logo-svg.png" alt="img" className="img-fluid" width={"37%"}/>
                             </a>
 
@@ -131,22 +131,22 @@ function WayToWatchSection()
                                <p className="mt-4 text-white" style={{fontSize:"0.9em"}}>You can also watch Netflix on a variety of game consoles.</p>            
                        </div>
                        <div className="tab-content-platform-one-container">
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/game-consoles/ps3.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/game-consoles/ps4.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/uploads/ps5-logo.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/game-consoles/xbox360_2013_stacked_wht_rgb.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                             <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
+                             <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/game-consoles/xboxone_stacked_wht_rgb.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                             <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
+                             <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"120px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/uploads/xboxseriesxs-2020-stack-wht-rgb-1-copy-xboxallaccess-2020-stacked-dkgray-rgb.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
 
@@ -173,18 +173,18 @@ function WayToWatchSection()
                     </div>
                     <div className="tab-content-platform-one-container">
                             
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/hdtvs/lg-logo-3d-tagline-white.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="	https://devices.netflix.com/images/hdtvs/panasonic_logo_bl_posi_png.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
                           
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="	https://devices.netflix.com/images/hdtvs/samsung_lettermark_white_rgb.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
                           
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src=" https://devices.netflix.com/images/hdtvs/sony-light.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
                           
@@ -201,13 +201,13 @@ function WayToWatchSection()
                         <p className="mt-4 text-white" style={{fontSize:"0.9em"}}>It’s easy to watch Netflix from anywhere. If Netflix isn’t already on your phone or tablet, you can download our free app from the Apple App Store, Google Play, or the Windows Phone Store.</p>
                         </div>
                         <div className="tab-content-platform-one-container">
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src=" https://devices.netflix.com/images/phones-and-tablets/android.png" alt="img" className="img-fluid" width={"45%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/phones-and-tablets/apple_logo_360.png" alt="img" className="img-fluid" width={"47%"}/>
                             </a>
-                            <a href="#" className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
+                            <a  className="d-inline-flex justify-content-center align-items-center platfrom-a-img-hover" style={{height:"200px",backgroundColor:"black"}}>
                                 <img src="https://devices.netflix.com/images/phones-and-tablets/windows-phone.png" alt="img" className="img-fluid" width={"45%"}/>
                             
                             </a>
