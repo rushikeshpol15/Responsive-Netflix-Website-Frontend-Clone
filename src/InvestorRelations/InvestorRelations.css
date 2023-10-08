@@ -58,6 +58,11 @@
 .investor-navToggle{
     display: none;
 }
+.accor-hvr{
+    cursor: pointer;
+}
+
+
 @media screen and (max-width:1150px) {
     .investor-relations-netflix-svg-container{
         flex-direction: column !important;
