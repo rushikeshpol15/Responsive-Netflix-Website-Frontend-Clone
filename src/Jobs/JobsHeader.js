@@ -21,7 +21,7 @@ function JobsHeader()
 
                 <div className="d-inline-flex align-items-center flex-column flex-lg-row">
                 <img src={NetflixSVG} className="Jobs-netflixSVG" alt="Netflix"/>
-                <a href="#" className="text-white fw-bold text-decoration-none ms-lg-3 mt-1 mt-lg-0 a-Jobs">JOBS</a>
+                <a  className="text-white fw-bold text-decoration-none ms-lg-3 mt-1 mt-lg-0 a-Jobs">JOBS</a>
                 </div>
 
                 <div className={(responsive)?"nav-sidebar-elements translate":"nav-sidebar-elements"}>
