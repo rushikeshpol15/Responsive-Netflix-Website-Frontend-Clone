@@ -15,8 +15,8 @@ function WayToWatchHeader()
             <img src={netflixSVG} className="way-to-watch-netflix-svg" alt="img" onClick={()=>{navigate('/')}}/>
 
                 <div className="way-navbar-sign-in-sign-up-container">
-                <a className="text-decoration-none fw-bold p-2 " style={{color:"red",marginRight:"15px",fontSize:"0.9em"}} href="/Account">Sign In</a>
-                <a className="text-decoration-none text-white fw-bold p-2" href="/JoinNowMain" style={{backgroundColor:" rgb(226, 15, 15)",borderRadius:"3px",fontSize:"0.9em"}} >Sign Up</a>
+                <a className="text-decoration-none fw-bold p-2 " style={{color:"red",marginRight:"15px",fontSize:"0.9em",cursor:"pointer"}}  onClick={()=>{navigate('/Account')}} >Sign In</a>
+                <a className="text-decoration-none text-white fw-bold p-2" onClick={()=>{navigate('/JoinNowMain')}}  style={{backgroundColor:" rgb(226, 15, 15)",borderRadius:"3px",fontSize:"0.9em",cursor:"pointer"}} >Sign Up</a>
                 </div>
                
             </nav>   
