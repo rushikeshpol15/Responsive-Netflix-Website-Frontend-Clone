@@ -5,10 +5,13 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPodcast } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook ,faSquareTwitter,faSquareInstagram,faYoutube,faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 function JobsFooter(props)
 {
     let[checkSwitch,setCheckSwitch]=useState(false);
+
+    let Navigate=useNavigate();
 
     return(
         <>
@@ -113,11 +116,11 @@ function JobsFooter(props)
                     </div>
 
                     <div className="inner-container-two  d-flex justify-content-end me-2 py-3" style={{gap:"25px"}}>
-                        <a href="/" className="fw-bold text-dark Jobs-footer-inner-container-links">Netflix.com</a>
-                        <a href="/ContactUs" className="Jobs-footer-inner-container-links">About Us</a>
-                        <a href="/Privacy" className="Jobs-footer-inner-container-links">Privacy</a>
+                        <a href="#" className="fw-bold text-dark Jobs-footer-inner-container-links">Netflix.com</a>
+                        <a onClick={()=>{Navigate('/ContactUs')}}  className="Jobs-footer-inner-container-links">About Us</a>
+                        <a onClick={()=>{Navigate('/Privacy')}}  className="Jobs-footer-inner-container-links">Privacy</a>
                         <a href="#staticBackdrop" data-bs-toggle="modal" className="Jobs-footer-inner-container-links">Cookie Preferences</a>
-                        <a href="/HelpCenter" className="Jobs-footer-inner-container-links">Help Center</a>
+                        <a onClick={()=>{Navigate('/HelpCenter')}} className="Jobs-footer-inner-container-links">Help Center</a>
 
 
                     </div>
