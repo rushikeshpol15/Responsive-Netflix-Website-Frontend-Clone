@@ -378,6 +378,7 @@ cursor: pointer;
     text-decoration: none;
     font-size: 0.8em;
     color: grey;
+    cursor: pointer;
 }
 .div-follow{
     font-size:0.9em ;
