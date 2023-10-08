@@ -5,10 +5,14 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook ,faSquareTwitter,faSquareInstagram,faYoutube,faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function JobsHeader()
 {
     let[responsive,setResponsive]=useState(false);
+
+    let Navigate=useNavigate();
+
     return(
         <>
         <header className="Jobs-header">
@@ -29,30 +33,30 @@ function JobsHeader()
                 <div className="d-flex netflix-sidebar-sVG-container">     
                 <div className="d-inline-flex align-items-center netflix-sidebar-sVG">
                 <img src={NetflixSVG} className="Jobs-netflixSVG" alt="Netflix"/>
-                <a href="#" className="text-dark fw-bold text-decoration-none">JOBS</a>
+                <a onClick={()=>{Navigate('/Jobs')}} className="text-dark fw-bold text-decoration-none">JOBS</a>
                 </div>
                     <button className="btn-close align-self-start" style={{width:"16px"}} onClick={()=>{setResponsive(false)}}></button>
                 </div>
               
-                 <a href="#" className="nav-sidebar-links text-decoration-none text-white">TEAMS</a>
-                 <a href="#" className="nav-sidebar-links text-decoration-none text-white">LOCATIONS</a>
+                 <a  className="nav-sidebar-links text-decoration-none text-white">TEAMS</a>
+                 <a  className="nav-sidebar-links text-decoration-none text-white">LOCATIONS</a>
                  <div className="nav-sidebar-div-one">
                  <span  className="nav-sidebar-links dropdown-toggle text-white">EMERGING TALENT</span>
                     <div className="nav-sidebar-span-first-div d-flex flex-column ">
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">NEW GRADES</a>
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">INTERNS</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">NEW GRADES</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">INTERNS</a>
 
                     </div>
                  </div>
                  <div className="nav-sidebar-div-two">
                  <span  className="nav-sidebar-links  dropdown-toggle text-white">WEARENETFLIX</span>
                     <div className="nav-sidebar-span-second-div d-flex flex-column ">
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">NETFLIX CULTURE MEMO</a>
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">WORK LIFE PHILOSOPHY</a>
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">INCLUSION & DIVERSITY</a>
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">VIDEO</a>
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">PODCAST</a>
-                        <a href="#" className="nav-sidebar-links text-decoration-none text-dark">BLOG</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">NETFLIX CULTURE MEMO</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">WORK LIFE PHILOSOPHY</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">INCLUSION & DIVERSITY</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">VIDEO</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">PODCAST</a>
+                        <a  className="nav-sidebar-links text-decoration-none text-dark">BLOG</a>
                     </div>
                  </div>
 
