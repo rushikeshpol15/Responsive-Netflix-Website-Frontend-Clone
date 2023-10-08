@@ -1,7 +1,13 @@
 import TermsOfUseSectionPrint from "../TermsOfUse/TermsOfUseSectionPrint";
 import "./LegalNoticeSection.css";
+import { Navigate, useNavigate } from "react-router-dom";
+
 
 function LegalNoticeSection(){
+
+        let Navigate=useNavigate();
+
+    
     return(
         <>
         <section className="LegalNotice-section">
@@ -14,7 +20,7 @@ function LegalNoticeSection(){
 
             <p>
                 <strong>Copyright</strong> <br/>
-                The copyrights in the shows and movies on our service are owned by many great producers, including Netflix Studios, LLC. If you believe your or someone else’s copyrights are being infringed upon through the Netflix service, let us know by completing the Copyright Infringement Claims form ( <a href="#" className="text-danger text-decoration-none">www.netflix.com/copyrights</a>).
+                The copyrights in the shows and movies on our service are owned by many great producers, including Netflix Studios, LLC. If you believe your or someone else’s copyrights are being infringed upon through the Netflix service, let us know by completing the Copyright Infringement Claims form ( <a onClick={()=>{Navigate('/Privacy')}} className="text-danger text-decoration-none">www.netflix.com/copyrights</a>).
             </p>
             <br/>
 
@@ -33,7 +39,7 @@ function LegalNoticeSection(){
             <br/>
 
               <p> <strong>Third Party Notices</strong> <br/>
-              The software installed on Netflix ready devices to enable streaming of the Netflix service may contain software available under open source or free software licenses (“Open Source Software”) and/or commercial software licensed to Netflix by parties (“Commercial Software”). The Netflix Terms of Use do not alter any rights or obligations you may have under those Open Source Software licenses. Additional information about Open Source and Commercial Software, including required acknowledgements, license terms and notices, can be found <a href="#" className="text-danger text-decoration-none">here</a>.
+              The software installed on Netflix ready devices to enable streaming of the Netflix service may contain software available under open source or free software licenses (“Open Source Software”) and/or commercial software licensed to Netflix by parties (“Commercial Software”). The Netflix Terms of Use do not alter any rights or obligations you may have under those Open Source Software licenses. Additional information about Open Source and Commercial Software, including required acknowledgements, license terms and notices, can be found <a onClick={()=>{Navigate('/Privacy')}} className="text-danger text-decoration-none">here</a>.
             </p>
 
             <br/>
