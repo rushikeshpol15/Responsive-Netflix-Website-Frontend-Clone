@@ -95,7 +95,7 @@ function JoinNowOneFooter()
         <footer className="join-now-one-footer">
             <div className="">
                 <span className="join-now-one-footer-call">Questions? Call </span>
-                <a href="#" className="text-decoration-none join-now-one-footer-call join-now-one-link-hover">000-800-919-1694</a>
+                <a  className="text-decoration-none join-now-one-footer-call join-now-one-link-hover">000-800-919-1694</a>
             </div>
 
             <div className="join-now-one-footer-link-cotainer">
