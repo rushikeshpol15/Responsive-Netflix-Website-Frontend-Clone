@@ -2,10 +2,13 @@ import SelectComponent from "../homepage/SelectComponent";
 import "./OnlyOnNetflix.css";
 import nVSG from "../homepage/netflixSvg.svg";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 function OnlyOnNetflixFooter()
 {
+
+    let NaviGate=useNavigate();
     let[checkSwitch,setCheckSwitch]=useState(false);
 
     return(
@@ -96,24 +99,24 @@ function OnlyOnNetflixFooter()
                 <div className="mt-5"> <a href="/ContactUs" className="only-only-footer-a text-decoration-none" style={{fontSize:"1.1em"}}>Questions? Contact us.</a> </div>
                 
                 <div className="only-on-footer-links-container">
-                        <a  href="/HelpCenter" className="only-only-footer-a">FAQ</a>  
-                         <a  href="/HelpCenter" className="only-only-footer-a">Help Center</a>  
-                         <a  href="/Account" className="only-only-footer-a">Account</a>  
-                         <a  href="/MediaCenter" className="only-only-footer-a">Media Center</a>  
+                        <a onClick={()=>{NaviGate('/FAQ')}} className="only-only-footer-a">FAQ</a>  
+                         <a onClick={()=>{NaviGate('/HelpCenter')}}  className="only-only-footer-a">Help Center</a>  
+                         <a onClick={()=>{NaviGate('/Account')}}  className="only-only-footer-a">Account</a>  
+                         <a onClick={()=>{NaviGate('/MediaCenter')}}  className="only-only-footer-a">Media Center</a>  
 
-                         <a  href="/InvestorRelations" className="only-only-footer-a">Investor Relations</a>  
-                         <a  href="/Jobs" className="only-only-footer-a">Jobs</a>  
-                         <a  href="/WayToWatch" className="only-only-footer-a">Way To Watch</a>  
-                         <a  href="/TermsOfUse" className="only-only-footer-a">Terms of Use</a>  
+                         <a onClick={()=>{NaviGate('/InvestorRelations')}} className="only-only-footer-a">Investor Relations</a>  
+                         <a onClick={()=>{NaviGate('/Jobs')}}  className="only-only-footer-a">Jobs</a>  
+                         <a onClick={()=>{NaviGate('/WayToWatch')}}  className="only-only-footer-a">Way To Watch</a>  
+                         <a onClick={()=>{NaviGate('/TermsOfUse')}}  className="only-only-footer-a">Terms of Use</a>  
 
-                         <a  href="/Privacy" className="only-only-footer-a">Privacy</a>  
+                         <a onClick={()=>{NaviGate('/Privacy')}} className="only-only-footer-a">Privacy</a>  
                          <a  href="#staticBackdrop" data-bs-toggle="modal" className="only-only-footer-a">Cookie Preferences</a>  
-                         <a  href="/CorporateInformation" className="only-only-footer-a">Corporate Information</a>  
-                         <a  href="/ContactUs" className="only-only-footer-a">Contact Us</a>  
+                         <a onClick={()=>{NaviGate('/CorporateInformation')}} className="only-only-footer-a">Corporate Information</a>  
+                         <a onClick={()=>{NaviGate('/ContactUs')}}  className="only-only-footer-a">Contact Us</a>  
 
-                         <a  href="#" className="only-only-footer-a">Speed Test</a>  
-                         <a  href="/LegalNotice" className="only-only-footer-a">Legal Notices</a>  
-                         <a  href="/OnlyOnNetflix" className="only-only-footer-a">Only on Netflix</a>  
+                         <a  className="only-only-footer-a">Speed Test</a>  
+                         <a onClick={()=>{NaviGate('/LegalNotice')}}  className="only-only-footer-a">Legal Notices</a>  
+                         <a onClick={()=>{NaviGate('/OnlyOnNetflix')}}  className="only-only-footer-a">Only on Netflix</a>  
 
                 </div>
                     <div className="mt-5 ">
