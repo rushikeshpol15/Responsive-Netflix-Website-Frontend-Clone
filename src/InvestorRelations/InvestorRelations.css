@@ -324,6 +324,7 @@ cursor: pointer;
     border: 2px solid red;
     background-color: rgb(211, 8, 8);
     transition:  0.7s;
+    cursor: pointer;
 }
 .investor-three-card-all-release-btn:hover{
     color: red;
