@@ -203,6 +203,7 @@ border-left: none !important;
     color: rgba(131, 130, 130, 0.959);
     text-decoration: none;
     font-size: 0.9em;
+    cursor: pointer;    
 }
 
 .way-to-watch-footer-a:hover{
