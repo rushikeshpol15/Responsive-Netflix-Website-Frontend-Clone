@@ -132,6 +132,7 @@ border: 1px solid grey;
 .join-now-one-footer-call{
     color: rgb(151, 151, 151) !important;
     font-size: 1.08em;
+    cursor: pointer !important;
 }
 .join-now-one-footer-link-cotainer{
     margin: 1.5em 0;
