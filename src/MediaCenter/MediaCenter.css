@@ -627,6 +627,7 @@ transform: scale(1.05);
     font-size: 0.8em;
     font-weight: bold;
     transition: 0.5s;
+    cursor: pointer;
 }
 .november-titles:hover{
     text-decoration: none;
