@@ -38,6 +38,7 @@
 } */
 a:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 input:focus{
     outline: none !important;
