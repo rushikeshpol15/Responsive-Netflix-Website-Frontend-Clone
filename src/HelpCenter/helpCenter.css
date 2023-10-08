@@ -128,6 +128,7 @@ border: 1px solid white !important;
 }
 .Help-section a.a-SIGN-IN{
     background-color: rgb(245, 14, 14) !important;
+    cursor: pointer;
 }
 .Help-section a.a-SIGN-IN:hover{
     background-color: rgb(223, 14, 14) !important;
@@ -135,10 +136,12 @@ border: 1px solid white !important;
 .a-JOIN-NETFLIX:hover{
     background-color: rgb(223, 14, 14) !important;
     color: white !important;
+    cursor: pointer;
 }
 .card .card-body a:hover, .Mycontainer .Myrow a:hover{
 color: red !important;
 text-decoration: underline !important;
+cursor: pointer;
 }
 .Mycontainer{
     width: 100% !important;
