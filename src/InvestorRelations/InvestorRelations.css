@@ -270,6 +270,9 @@ cursor: pointer;
 .investor-list-padding:hover{
     border-left: 2px solid red;
 }
+.inv-sec-one-anch-tag {
+    cursor: pointer;
+}
 
 @media screen and (max-width:800px) {
     .investor-relations-section-one-container{
