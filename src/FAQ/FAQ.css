@@ -29,6 +29,7 @@
 }
 .FAQ-subcontainer-one a:hover{
     text-decoration: underline !important;
+    cursor: pointer;
 }
 .left-border-div{
     border-left: 5px solid rgba(201, 199, 199, 0.685);
@@ -62,6 +63,7 @@ ul.FAQ-orderlist li {
 }
 .FAQ-subcontainer-two .FAQ-subcontainer-two-span a:hover{
     color: grey !important;
+    cursor: pointer;
 }
 
 @media screen and (min-width:0px) and (max-width:500px) {
