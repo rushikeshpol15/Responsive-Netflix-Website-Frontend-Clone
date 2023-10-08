@@ -110,10 +110,10 @@ function HelpCenterFooter(props)
                     <option value={"हिन्दी"}>हिन्दी</option>
                 </select>
                 <div className="d-flex flex-column mb-4" style={{gap:"20px"}}>
-                <a href="/TermsOfUse" className="footer-a text-decoration-none">Terms of Use</a>
-                <a href="/Privacy" className="footer-a text-decoration-none">Privacy</a>
+                <a onClick={()=>{NaviGation('/TermsOfUse')}}  className="footer-a text-decoration-none">Terms of Use</a>
+                <a onClick={()=>{NaviGation('/Privacy')}} className="footer-a text-decoration-none">Privacy</a>
                 <a href="#staticBackdrop" data-bs-toggle="modal" className="footer-a text-decoration-none">Cookie Preferences</a>
-                <a href="/CorporateInformation" className="footer-a text-decoration-none">Corporate Information</a>
+                <a onClick={()=>{NaviGation('/CorporateInformation')}}  className="footer-a text-decoration-none">Corporate Information</a>
                 </div>
             </div>
         </footer>
