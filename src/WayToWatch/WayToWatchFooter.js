@@ -1,9 +1,12 @@
 import "./WayToWatch.css";
 import nVSG from "../homepage/netflixSvg.svg";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function WayToWatchFooter()
 {
+
+    let Navigate=useNavigate();
     let[checkSwitch,setCheckSwitch]=useState(false);
 
     return(
@@ -95,26 +98,26 @@ function WayToWatchFooter()
                 <div   >
                     <h6 className="fw-bold mb-2">Get Help</h6>
                     <div className="d-flex flex-wrap" >
-                       <div> <a href="/FAQ" className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>FAQ</a>  </div>
-                       <div> <a href="/HelpCenter" className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Help Center</a> </div>
-                       <div> <a href="/Account" className="way-to-watch-footer-a" >Account</a></div>
+                       <div> <a onClick={()=>{Navigate('/FAQ')}}  className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>FAQ</a>  </div>
+                       <div> <a  onClick={()=>{Navigate('/HelpCenter')}}  className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Help Center</a> </div>
+                       <div> <a  onClick={()=>{Navigate('/Account')}}  className="way-to-watch-footer-a" >Account</a></div>
                     </div>
                 </div>
                 <div  >
                     <h6 className="fw-bold mb-2">Our Company</h6>
                     <div className="d-flex flex-row flex-wrap">
-                        <div><a href="/MediaCenter" className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Media Center</a> </div>
-                        <div><a href="#" className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Blog</a> </div>
-                        <div><a href="/InvestorRelations" className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Investor Relations</a> </div>
-                        <div><a href="/OnlyOnNetflix" className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Netflix Originals</a> </div>
-                        <div><a href="/Jobs" className="way-to-watch-footer-a" >Jobs</a> </div>
+                        <div><a onClick={()=>{Navigate('/MediaCenter')}}   className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Media Center</a> </div>
+                        <div><a  className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Blog</a> </div>
+                        <div><a onClick={()=>{Navigate('/InvestorRelations')}}   className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Investor Relations</a> </div>
+                        <div><a onClick={()=>{Navigate('/OnlyOnNetflix')}}   className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Netflix Originals</a> </div>
+                        <div><a onClick={()=>{Navigate('/Jobs')}}   className="way-to-watch-footer-a" >Jobs</a> </div>
                     </div>
                 </div>
                 <div >
                     <h6 className="fw-bold mb-2">Getting Started</h6>
                     <div className="d-flex flex-row flex-wrap">
-                        <div> <a href="#" className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Redeem Your Gift</a> </div>
-                        <div><a href="#" className="way-to-watch-footer-a" >Devices that stream from Netflix</a> </div>
+                        <div> <a  className="way-to-watch-footer-a" style={{borderRight: "1px solid grey" }}>Redeem Your Gift</a> </div>
+                        <div><a  className="way-to-watch-footer-a" >Devices that stream from Netflix</a> </div>
                     </div>
                 </div>
             </div>
@@ -122,9 +125,9 @@ function WayToWatchFooter()
             <div className="way-to-watch-footer-last-link-img-container">
                 <div>
                     <div>
-                        <a href="/TermsOfUse" className="way-to-watch-footer-a" style={{fontSize:"0.8em !important",marginRight:"12px"}}>Terms Of Use</a>
-                        <a href="/Privacy" className="way-to-watch-footer-a" style={{fontSize:"0.8em !important",marginRight:"12px"}}>Privacy</a>
-                        <a href="#staticBackdrop" data-bs-toggle="modal" className="way-to-watch-footer-a" style={{fontSize:"0.8em !important",marginRight:"12px"}}>Cookie Preferences</a>
+                        <a onClick={()=>{Navigate('/TermsOfUse')}}  className="way-to-watch-footer-a" style={{fontSize:"0.8em !important",marginRight:"12px"}}>Terms Of Use</a>
+                        <a onClick={()=>{Navigate('/Privacy')}}  className="way-to-watch-footer-a" style={{fontSize:"0.8em !important",marginRight:"12px"}}>Privacy</a>
+                        <a  href="#staticBackdrop" data-bs-toggle="modal" className="way-to-watch-footer-a" style={{fontSize:"0.8em !important",marginRight:"12px"}}>Cookie Preferences</a>
                     </div>
                     <p style={{fontSize:"0.9em",color:"rgba(131, 130, 130, 0.959)"}}>© 2023 Netflix, Inc.</p>
 
