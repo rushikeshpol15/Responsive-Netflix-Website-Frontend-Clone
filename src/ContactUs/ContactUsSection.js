@@ -44,7 +44,7 @@ function ContactUsSection()
                         <li className='list-group-item d-flex align-items-center'>
                             <span className='me-auto'>
                             <FontAwesomeIcon icon={faCircleExclamation} style={{color: "#707070",marginRight:"10px"}} />
-                            <a href='#' className='text-secondary text-decoration-none'>Content Grievances in India</a>
+                            <a  className='text-secondary text-decoration-none'>Content Grievances in India</a>
                             </span>
                             <FontAwesomeIcon icon={faGreaterThan} style={{color: "#de1b1b",width:"10px"}} />
                         </li>
@@ -52,7 +52,7 @@ function ContactUsSection()
                         <li className='list-group-item d-flex align-items-center'>
                             <span className='me-auto'>
                             <FontAwesomeIcon icon={faLock} style={{color: "#595959",marginRight:"12px"}} />
-                            <a href='#' className='text-secondary text-decoration-none'>Reset password</a>
+                            <a  className='text-secondary text-decoration-none'>Reset password</a>
                             </span>
                             <FontAwesomeIcon icon={faGreaterThan} style={{color: "#de1b1b",width:"10px"}} />
                         </li>
@@ -60,7 +60,7 @@ function ContactUsSection()
                         <li className='list-group-item d-flex align-items-center'>
                             <span className='me-auto'>
                             <FontAwesomeIcon icon={faEnvelope} style={{color: "#696969",marginRight:"10px"}} />
-                            <a href='#' className='text-secondary text-decoration-none'>Update email</a>
+                            <a  className='text-secondary text-decoration-none'>Update email</a>
                             </span>
                             <FontAwesomeIcon icon={faGreaterThan} style={{color: "#de1b1b",width:"10px"}} />
                         </li>
@@ -68,7 +68,7 @@ function ContactUsSection()
                         <li className='list-group-item d-flex align-items-center'>
                             <span className='me-auto'>
                             <FontAwesomeIcon icon={faCircleQuestion} style={{color: "#919191",marginRight:"10px",height:"17px"}} />
-                            <a href='#' className='text-secondary text-decoration-none'>Get help signing in</a>
+                            <a  className='text-secondary text-decoration-none'>Get help signing in</a>
                             </span>
                             <FontAwesomeIcon icon={faGreaterThan} style={{color: "#de1b1b",width:"10px"}} />
                         </li>
@@ -76,7 +76,7 @@ function ContactUsSection()
                         <li className='list-group-item d-flex align-items-center'>
                             <span className='me-auto'>
                             <FontAwesomeIcon icon={faCreditCard} style={{color: "#808080",marginRight:"10px"}} />
-                            <a href='#' className='text-secondary text-decoration-none'>Update payment method</a>
+                            <a  className='text-secondary text-decoration-none'>Update payment method</a>
                             </span>
                             <FontAwesomeIcon icon={faGreaterThan} style={{color: "#de1b1b",width:"10px"}} />
                         </li>
@@ -84,7 +84,7 @@ function ContactUsSection()
                         <li className='list-group-item d-flex align-items-center'>
                             <span className='me-auto'>
                             <FontAwesomeIcon icon={faTv} style={{color: "#7a7a7a",marginRight:"10px"}} />
-                            <a href='#' className='text-secondary text-decoration-none'>Request TV shows or movies</a>
+                            <a  className='text-secondary text-decoration-none'>Request TV shows or movies</a>
                             </span>
                             <FontAwesomeIcon icon={faGreaterThan} style={{color: "#de1b1b",width:"10px"}} />
                         </li>
