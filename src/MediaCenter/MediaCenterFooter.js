@@ -3,9 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import nVSG from "../homepage/netflixSvg.svg";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function MediaCenterFooter()
 {
+    let Navigate=useNavigate();
     let[checkSwitch,setCheckSwitch]=useState(false);
 
     return(
@@ -95,17 +97,17 @@ function MediaCenterFooter()
 
                 <div className="media-center--footer-innerDIV-container">
                     <span style={{fontSize:"0.7em",color:"rgb(167, 165, 165)"}} className="fw-bold">Company</span>
-                    <a href="#"  className="text-decoration-none" style={{fontSize:"0.9em",color:"rgb(226, 225, 225)"}}>About netflix</a>
-                    <a href="#"  className="text-decoration-none" style={{fontSize:"0.9em",color:"rgb(226, 225, 225)"}}>Newsroom</a>
-                    <a href="#"  className="text-decoration-none" style={{fontSize:"0.9em", color:"rgb(226, 225, 225)"  }}>Company Assets</a>
-                    <a href="#"  className="text-decoration-none" style={{fontSize:"0.9em" , color:"rgb(226, 225, 225)" }}>Start watching</a>
+                    <a   className="text-decoration-none" style={{fontSize:"0.9em",color:"rgb(226, 225, 225)",cursor:"pointer"}}>About netflix</a>
+                    <a   className="text-decoration-none" style={{fontSize:"0.9em",color:"rgb(226, 225, 225)",cursor:"pointer"}}>Newsroom</a>
+                    <a   className="text-decoration-none" style={{fontSize:"0.9em", color:"rgb(226, 225, 225)",cursor:"pointer"  }}>Company Assets</a>
+                    <a   className="text-decoration-none" style={{fontSize:"0.9em" , color:"rgb(226, 225, 225)",cursor:"pointer" }}>Start watching</a>
 
 
                 </div>
 
                 <div className="media-center--footer-innerDIV-container">
                     <span style={{fontSize:"0.7em",color:"rgb(167, 165, 165)"}} className="fw-bolder">Connect</span>
-                    <a href="/ContactUs" className="text-decoration-none" style={{fontSize:"0.9em",color:"rgb(226, 225, 225)"}}>Contact Us </a>
+                    <a onClick={()=>{Navigate('/ContactUs')}}  className="text-decoration-none" style={{fontSize:"0.9em",color:"rgb(226, 225, 225)",cursor:"pointer"}}>Contact Us </a>
                     <div className="media-center-footer-nested-container">
                     <FontAwesomeIcon icon={faTwitter} style={{color: "#f6f7f9", height:"20px"}} />
                     <FontAwesomeIcon icon={faInstagram} style={{color: "#f3f4f7", height:"20px"}} />
@@ -116,9 +118,9 @@ function MediaCenterFooter()
 
                 <div className="media-center--footer-innerDIV-container">
                     <span style={{fontSize:"0.7em",color:"rgb(167, 165, 165)"}} className="fw-bold">Legal</span>
-                    <a href="/TermsOfUse"  className="text-decoration-none " style={{fontSize:"0.9em",color:"rgb(226, 225, 225)"}}>Terms and Conditions</a>
-                    <a href="/Privacy" className="text-decoration-none " style={{fontSize:"0.9em",color:"rgb(226, 225, 225)"}}>Privacy</a>
-                    <a href="#staticBackdrop" data-bs-toggle="modal"  className="text-decoration-none " style={{fontSize:"0.9em",color:"rgb(226, 225, 225)"}}>Cookie Preferences</a>
+                    <a onClick={()=>{Navigate('/TermsOfUse')}}   className="text-decoration-none " style={{fontSize:"0.9em",color:"rgb(226, 225, 225)",cursor:"pointer"}}>Terms and Conditions</a>
+                    <a onClick={()=>{Navigate('/Privacy')}}  className="text-decoration-none " style={{fontSize:"0.9em",color:"rgb(226, 225, 225)",cursor:"pointer"}}>Privacy</a>
+                    <a href="#staticBackdrop" data-bs-toggle="modal"  className="text-decoration-none " style={{fontSize:"0.9em",color:"rgb(226, 225, 225)",cursor:"pointer"}}>Cookie Preferences</a>
 
 
 
