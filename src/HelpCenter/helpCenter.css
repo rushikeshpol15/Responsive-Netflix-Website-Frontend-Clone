@@ -233,6 +233,7 @@ cursor: pointer;
 }
 .footer-a{
     color: rgb(161, 161, 161);
+    cursor: pointer;    
 }
 .footer-a:hover{
     text-decoration: underline !important;
