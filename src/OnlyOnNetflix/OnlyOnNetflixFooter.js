@@ -94,9 +94,9 @@ function OnlyOnNetflixFooter()
 
         <footer className="only-on-netflix-footer">
 
-                <a href="#" className="only-only-footer-a text-decoration-none" style={{fontSize:"1em"}}>Read about Netflix TV shows and movies and watch bonus videos on Tudum.com.</a>
+                <a  className="only-only-footer-a text-decoration-none" style={{fontSize:"1em"}}>Read about Netflix TV shows and movies and watch bonus videos on Tudum.com.</a>
                 
-                <div className="mt-5"> <a href="/ContactUs" className="only-only-footer-a text-decoration-none" style={{fontSize:"1.1em"}}>Questions? Contact us.</a> </div>
+                <div className="mt-5"> <a onClick={()=>{NaviGate('/ContactUs')}}  className="only-only-footer-a text-decoration-none" style={{fontSize:"1.1em"}}>Questions? Contact us.</a> </div>
                 
                 <div className="only-on-footer-links-container">
                         <a onClick={()=>{NaviGate('/FAQ')}} className="only-only-footer-a">FAQ</a>  
