@@ -133,6 +133,7 @@ border-left: none !important;
 }
 .platfrom-a-img-hover:hover{
     background-color: rgba(82, 82, 82, 0.123) !important;
+    cursor: pointer;
 }
 .platform-smart-tv-img{
     width: 150px;
