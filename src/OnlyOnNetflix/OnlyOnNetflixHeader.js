@@ -13,8 +13,8 @@ function OnlyOnNetflixHeader()
 
             <div className="only-on-netflix-signIn-JoinNow-container">
                 <span className="Unlimited-shows-span-text text-white">UNLIMITED TV SHOWS & MOVIES</span>
-                <a href="/JoinNowMain" className="Only-on-JoinNow-box text-white text-decoration-none">JOIN NOW</a>
-                <a href="/Account" className="Only-on-SignIn-box text-white text-decoration-none">SIGN IN</a>
+                <a onClick={()=>{NaviGate('/JoinNowMain')}}  className="Only-on-JoinNow-box text-white text-decoration-none">JOIN NOW</a>
+                <a onClick={()=>{NaviGate('/Account')}} className="Only-on-SignIn-box text-white text-decoration-none">SIGN IN</a>
             </div>
         </header>
         </>
