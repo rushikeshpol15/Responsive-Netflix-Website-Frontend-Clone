@@ -32,6 +32,7 @@
     margin-right: 1em;
     font-weight: 550 !important;
     font-size: 0.95em;
+    cursor: pointer;
 }
 .a-btn:hover{
 border: 1px solid white !important;
@@ -42,6 +43,7 @@ border: 1px solid white !important;
     border-radius: 4px !important;
     background-color: rgb(219, 55, 55);
     padding: 2px 12px !important;
+    cursor: pointer;
 }
 .a-signIn-btn:hover{
     background-color: rgb(199, 9, 9);
