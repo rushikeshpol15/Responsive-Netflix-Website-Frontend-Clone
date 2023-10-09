@@ -349,7 +349,7 @@ position: relative;
 padding: 0.5em;
 top: 0%;
 left: 0%;
-overflow-y: auto;
+/* overflow-y: auto; */
 display: none;
 margin-bottom: 1em;
 }
