@@ -291,7 +291,7 @@ background-color: transparent !important;
     padding: 2em 2.2em;
     gap: 1em;
     height: 100vh;
-    overflow-y: auto;
+    overflow: auto;
     transition: left 0.6s;
 }
 .slide-TO-right{
