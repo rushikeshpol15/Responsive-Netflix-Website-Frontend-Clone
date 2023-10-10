@@ -3,6 +3,7 @@
 ## Description :
 I have created a responsive **Netflix** website frontend clone consisting of 23 unique pages using React.js and Bootstrap. The project features a sophisticated navbar and complex page structures to enhance user navigation and engagement. It showcases a seamless and visually appealing user experience, adapting gracefully to various screen sizes and devices. The combination of React.js and Bootstrap allowed for efficient development and a modern, sleek design. This project highlights my proficiency in front-end development, responsive design.
 
+Try This Website - https://rushikeshpol15.github.io/Responsive-Netflix-Website-Frontend-Clone/
 
 ## Key features of the Website include:
 
@@ -37,6 +38,7 @@ Following ReactJS contents are used :
  -   ####  UseEffect Hook
  -   ####  useNavigate Hook
  -   ####  callbacks
+ -   ####  Regular Expressions
  -   ####  Props
  -   ####  States
  -   ####  React-Router
@@ -210,6 +212,10 @@ Font Awesome Icons are used
 ![App Screenshot](screenshots/Jobs3.jpg)
 ![App Screenshot](screenshots/Jobs4.jpg)
 ![App Screenshot](screenshots/Jobs5.jpg)
+
+### user can see a youTube video of Latest From Netflix on Click ###
+![App Screenshot](screenshots/Jobs3.jpg)
+![App Screenshot](screenshots/Jobs6.jpg)
 
 - MediaCenter
 
